@@ -9,6 +9,7 @@
 @import url(/src/css/pages/header.css);
 @import url(/src/css/pages/intro.css);
 @import url(/src/css/pages/works.css);
+@import url(/src/css/pages/project.css);
 
 body{
     font-family: "NotoSans-Regular";
@@ -17,5 +18,4 @@ body{
 section{
     border: 1px solid #fff;
     background: #000;
-    height: 100vh;
 }

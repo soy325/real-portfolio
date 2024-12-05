@@ -1,0 +1,155 @@
+:root {
+  --card-rotate: 150deg;
+  --plus-rotate: 60deg;
+}
+
+#project {
+  height: 80vh;
+}
+#project .project-inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#project .project-inner h2 {
+  color: #70BDF5;
+  font-family: "Abhaya Libre", serif;
+  font-size: 70px;
+  padding-left: 50px;
+}
+#project .project-inner a {
+  width: 80px;
+  background: #fff;
+  color: #000;
+  display: flex;
+  gap: 40px;
+  border-radius: 50px;
+  padding: 5px 20px;
+  transition: 0.35s;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#project .project-inner a img {
+  width: 30px;
+  height: 30px;
+}
+#project .project-inner a:hover {
+  width: 150px;
+  background: #70BDF5;
+}
+#project .wrap {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+#project .wrap::before {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border-top: 2px dashed #70BDF5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: -300px;
+}
+#project .wrap .rot__box {
+  width: 200vw;
+  height: 200vw;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -100vw;
+  transform-origin: center bottom;
+  transition: 0.35s ease-out;
+}
+#project .wrap .rot__box .card__box {
+  width: 800px;
+  height: 700px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  transform-origin: center bottom;
+  opacity: 0;
+  transition: 0.35s;
+}
+#project .wrap .rot__box .card__box.txt__box {
+  opacity: 1;
+}
+#project .wrap .rot__box .card__box .card {
+  width: 260px;
+  height: 360px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+#project .wrap .rot__box .card__box .card .card-desc {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* align-items: center; */
+  justify-content: center;
+}
+#project .wrap .rot__box .card__box .card .card-desc span {
+  color: #049DBF;
+  font-weight: 700;
+}
+#project .wrap .rot__box .card__box .card .card-desc h2 {
+  color: #01032D;
+}
+#project .wrap .rot__box .card__box .txt__type {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 9vw;
+}
+#project .wrap .rot__box .card__box .txt__type span {
+  color: #70BDF5;
+}
+#project .wrap .btn {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 10px;
+  color: #70BDF5;
+}
+#project .wrap .btn img {
+  width: 50px;
+}
+#project .wrap .btn > div {
+  display: flex;
+  align-items: center;
+}
+#project .card__box:nth-child(2) {
+  transform: rotate(var(--card-rotate));
+}
+#project .card__box:nth-child(3) {
+  transform: rotate(calc(var(--card-rotate) + var(--plus-rotate) * 1));
+}
+#project .card__box:nth-child(4) {
+  transform: rotate(calc(var(--card-rotate) + var(--plus-rotate) * 2));
+}
+#project .card__box:nth-child(5) {
+  transform: rotate(calc(var(--card-rotate) + var(--plus-rotate) * 3));
+}
