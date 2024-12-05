@@ -8,6 +8,7 @@
 /* layout */
 @import url(/src/css/pages/header.css);
 @import url(/src/css/pages/intro.css);
+@import url(/src/css/pages/works.css);
 
 body{
     font-family: "NotoSans-Regular";
