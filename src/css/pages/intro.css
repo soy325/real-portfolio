@@ -1,0 +1,59 @@
+#intro {
+  background-image: url(/src/assets/intro/main-bg.jpg);
+  height: 100vh;
+  position: relative;
+}
+#intro .intro-inner {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  #intro h1 {
+    font-size: 100px;
+    font-family: "Abhaya Libre", serif;
+    background: linear-gradient(300deg, #A2AEFD, #B4EDFF, #A2AEFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 50px;
+    font-weight: 900;
+  }
+  #intro span {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 768px) {
+  #intro h1 {
+    font-size: 100px;
+    font-family: "Abhaya Libre", serif;
+    background: linear-gradient(300deg, #A2AEFD, #B4EDFF, #A2AEFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 50px;
+    font-weight: 900;
+  }
+  #intro span {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1200px) {
+  #intro h1 {
+    font-size: 170px;
+    font-family: "Abhaya Libre", serif;
+    background: linear-gradient(300deg, #A2AEFD, #B4EDFF, #A2AEFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 50px;
+    font-weight: 900;
+  }
+  #intro span {
+    font-size: 23px;
+    font-weight: 700;
+  }
+}
