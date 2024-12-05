@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* setting */
+@import url(/src/css/bace/font.css);
+@import url(/src/css/bace/reset.css);
+@import url(/src/css/bace/vars.css);
+
+/* layout */
+@import url(/src/css/pages/header.css);
+
+body{
+    font-family: "NotoSans-Regular";
+}
+
+section{
+    border: 1px solid #fff;
+    background: #000;
+    height: 100vh;
+}
