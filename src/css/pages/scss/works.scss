@@ -21,7 +21,10 @@
     }
 
     article {
+        border: 1px solid transparent;
+        margin-top: 50px;
         .swiper-container {
+            border: 1px solid transparent;
             position: relative;
             width: 80%;
             overflow: hidden;
@@ -116,7 +119,7 @@
         .next {
             position: absolute;
             left: 86px;
-            bottom: 442px;
+            bottom: 402px;
             cursor: pointer;
             z-index: 99;
 
@@ -127,7 +130,7 @@
 
         .swiper-pagination {
             position: absolute;
-            top: 271px;
+            top: 320px;
             left: 297px;
             font-weight: 700;
             width: 10%;
@@ -136,7 +139,7 @@
             font-size: 28px;
 
             .swiper-pagination-current {
-                color: #70BDF5;
+                color: #FFD628;
                 font-size: 36px;
             }
         }
@@ -144,7 +147,7 @@
         .strok {
             position: absolute;
             left: 130px;
-            bottom: 480px;
+            bottom: 440px;
             width: 100%;
             height: 0;
         }

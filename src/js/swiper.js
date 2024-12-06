@@ -3,7 +3,7 @@ export function swiper() {
         slidesPerView: 4,
         spaceBetween: 30,
         loop: true,
-        // mousewheel: true,
+        mousewheel: true,
         pagination: {
             el: ".swiper-pagination",
             type: "fraction",

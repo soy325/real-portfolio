@@ -10,12 +10,15 @@
 @import url(/src/css/pages/intro.css);
 @import url(/src/css/pages/works.css);
 @import url(/src/css/pages/project.css);
+@import url(/src/css/pages/graphic.css);
+@import url(/src/css/pages/about.css);
 
 body{
     font-family: "NotoSans-Regular";
 }
 
 section{
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background: #000;
+    contain: paint;
 }

@@ -35,9 +35,6 @@
 #header .header__pc a:hover::before {
   transform: scaleX(1);
 }
-#header .header__pc a.on::before {
-  transform: scaleX(1);
-}
 #header .header__nav_mobile {
   display: none;
   width: 40px;

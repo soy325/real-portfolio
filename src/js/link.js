@@ -1,12 +1,5 @@
+
 export function link() {
-    //smooth scroll----------------------------------------    
-    const lenis = new Lenis();
-    
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
     //각각의 section의 위치정보 ----------------------------------------
     let links = gsap.utils.toArray('nav ul li a')
     links.forEach(link => {
@@ -25,7 +18,6 @@ export function link() {
           duration: 1,
           scrollTo: {
             y: elem,
-            offsetY: 50
           },
           overwite: 'auto'
         })

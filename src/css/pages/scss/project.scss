@@ -4,18 +4,19 @@
 }
 
 #project {
-    height: 80vh;
+    height: 90vh;
 
     .project-inner {
         display: flex;
         align-items: center;
         gap: 30px;
+        padding-top: 100px;
 
         h2 {
             color: #70BDF5;
             font-family: "Abhaya Libre", serif;
             font-size: 70px;
-            padding-left: 50px;
+            padding-left: 100px;
         }
 
         a {
@@ -130,7 +131,7 @@
 
 
                     span {
-                        color: #70BDF5;
+                        color: #FFD628;
                     }
                 }
             }

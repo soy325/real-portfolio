@@ -4,18 +4,19 @@
 }
 
 #project {
-  height: 80vh;
+  height: 90vh;
 }
 #project .project-inner {
   display: flex;
   align-items: center;
   gap: 30px;
+  padding-top: 100px;
 }
 #project .project-inner h2 {
   color: #70BDF5;
   font-family: "Abhaya Libre", serif;
   font-size: 70px;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 #project .project-inner a {
   width: 80px;
@@ -115,7 +116,7 @@
   padding-top: 9vw;
 }
 #project .wrap .rot__box .card__box .txt__type span {
-  color: #70BDF5;
+  color: #FFD628;
 }
 #project .wrap .btn {
   position: absolute;

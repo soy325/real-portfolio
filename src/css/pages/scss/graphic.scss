@@ -1,0 +1,89 @@
+#graphic {
+    position: relative;
+    height: 100vh;
+
+
+    .graphic-inner {
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-bottom: 50px;
+
+        h2 {
+            font-size: 70px;
+            font-family: "Abhaya Libre", serif;
+            color: #70BDF5;
+        }
+
+        p {
+            color: #fff;
+            font-size: 18px;
+            padding-top: 10px;
+        }
+    }
+
+    .graphic__wrap {
+        display: flex;
+        width: 200%;
+        gap: 100px;
+        margin-top: 100px;
+        margin-left: 80px;
+        align-items: flex-start;
+        padding: 0 100px;
+
+        .graphic__list {
+            position: relative;
+            width: 17vw;
+            border: 1px solid #fff;
+            flex-shrink: 0;
+            min-width: 280px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -30px;
+            transition: .35s;
+
+            img {
+                width: 100%;
+                transition: .35s;
+                filter: saturate(0);
+            }
+
+            .unm {
+                -webkit-text-stroke-color: #fff;
+                -webkit-text-fill-color: #000;
+                -webkit-text-stroke-width: 1px;
+                -webkit-background-clip: text;
+                font-family: 'ghanachoco';
+                position: absolute;
+                left: -56px;
+                top: -40px;
+                font-size: 50px;
+            }
+
+            &:hover {
+                margin-top: 0;
+
+                .unm {
+                    -webkit-text-stroke-color: #E7C700;
+                    -webkit-text-fill-color: #E7C700;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-background-clip: text;
+                }
+
+                img {
+                    margin-top: 0;
+                    filter: none;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:1200px) {}
