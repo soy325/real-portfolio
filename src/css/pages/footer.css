@@ -1,0 +1,30 @@
+#contacts {
+  height: 50vh;
+  background: #000;
+  contain: paint;
+}
+#contacts .splide__track {
+  background-image: linear-gradient(to right, #152042, #22315b, #2f4476, #3b5791, #476cae, #476cae, #476cae, #476cae, #3b5791, #2f4476, #22315b, #152042);
+}
+#contacts .splide__track .splide__list {
+  display: flex;
+}
+#contacts .splide__track .splide__slide {
+  padding: 10px;
+  color: #fff;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  letter-spacing: 3px;
+  color: #fff;
+}
+#contacts .splide__track .splide__slide.en {
+  font-family: "Abhaya Libre", serif;
+}
+#contacts .splide__track .splide__slide.ko {
+  font-size: 23px;
+}
+#contacts .splide__track .splide__slide.is-active {
+  color: #B4EDFF;
+}

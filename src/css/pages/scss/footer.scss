@@ -1,0 +1,40 @@
+#contacts {
+    height: 50vh;
+    background: #000;
+    contain: paint;
+
+    .splide__track {
+
+        background-image: linear-gradient(to right, #152042, #22315b, #2f4476, #3b5791, #476cae, #476cae, #476cae, #476cae, #3b5791, #2f4476, #22315b, #152042);
+
+        .splide__list {
+            display: flex;
+        }
+
+        .splide__slide {
+            padding: 10px;
+            color: #fff;
+            font-size: 2vw;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            letter-spacing: 3px;
+            color: #fff;
+
+            &.en {
+                font-family: "Abhaya Libre", serif;
+            }
+
+            &.ko {
+                font-size: 23px;
+            }
+
+            &.is-active {
+                color: #B4EDFF;
+            }
+
+        }
+
+    }
+
+}

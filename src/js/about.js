@@ -1,10 +1,13 @@
+// import gsap from 'gsap';
+// import ScrollTrigger from "gsap/ScrollTrigger";
+
 export function about() {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.to(".about_wrap .title1", {
       scrollTrigger: {
         trigger: ".about_wrap .cont01",
-        start: "-100% top",
+        start: "top top",
         toggleClass: { targets: '.about_wrap .title1', className: 'on' },
         scrub: 2,
       }

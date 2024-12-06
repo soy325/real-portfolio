@@ -19,12 +19,13 @@
 }
 #graphic .graphic__wrap {
   display: flex;
-  width: 200%;
+  width: 150%;
   gap: 100px;
   margin-top: 100px;
   margin-left: 80px;
   align-items: flex-start;
   padding: 0 100px;
+  height: 100vh;
 }
 #graphic .graphic__wrap .graphic__list {
   position: relative;

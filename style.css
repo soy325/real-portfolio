@@ -3,7 +3,6 @@
 /* setting */
 @import url(/src/css/bace/font.css);
 @import url(/src/css/bace/reset.css);
-@import url(/src/css/bace/vars.css);
 
 /* layout */
 @import url(/src/css/pages/header.css);
@@ -12,6 +11,7 @@
 @import url(/src/css/pages/project.css);
 @import url(/src/css/pages/graphic.css);
 @import url(/src/css/pages/about.css);
+@import url(/src/css/pages/footer.css);
 
 body{
     font-family: "NotoSans-Regular";
