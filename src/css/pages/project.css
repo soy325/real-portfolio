@@ -5,6 +5,7 @@
 
 #project {
   height: 90vh;
+  background: #000;
 }
 #project .project-inner {
   display: flex;

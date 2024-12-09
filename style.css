@@ -19,6 +19,5 @@ body{
 
 section{
     /* border: 1px solid #fff; */
-    background: #000;
     contain: paint;
 }
