@@ -1,7 +1,6 @@
 #works {
     height: 100vh;
     position: relative;
-    background: #000;
 
     .works-inner {
         padding-top: 100px;
@@ -42,7 +41,7 @@
 
                 .swiper-slide {
                     position: relative;
-                    height: 450px;
+                    height: 480px;
                     background: #fff;
                     border-radius: 50px;
                     // box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
@@ -89,7 +88,7 @@
                         left: 0;
                         bottom: 15px;
                         width: 100%;
-                        padding: 15px;
+                        padding: 20px;
 
                         .desc-inner {
                             display: flex;
@@ -106,6 +105,7 @@
                         p {
                             font-size: 16px;
                             color: #00799E;
+                            padding-top: 10px;
                         }
                     }
                 }

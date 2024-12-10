@@ -1,7 +1,6 @@
 #works {
   height: 100vh;
   position: relative;
-  background: #000;
 }
 #works .works-inner {
   padding-top: 100px;
@@ -40,7 +39,7 @@
 }
 #works article .swiper-container .swiper .swiper-slide {
   position: relative;
-  height: 450px;
+  height: 480px;
   background: #fff;
   border-radius: 50px;
   overflow: hidden;
@@ -79,7 +78,7 @@
   left: 0;
   bottom: 15px;
   width: 100%;
-  padding: 15px;
+  padding: 20px;
 }
 #works article .swiper-container .swiper .swiper-slide .desc .desc-inner {
   display: flex;
@@ -94,6 +93,7 @@
 #works article .swiper-container .swiper .swiper-slide .desc p {
   font-size: 16px;
   color: #00799E;
+  padding-top: 10px;
 }
 #works article .swiper-container .swiper .swiper-slide-active {
   transition: 0.35s;

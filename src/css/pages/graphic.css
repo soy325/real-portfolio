@@ -1,7 +1,6 @@
 #graphic {
   position: relative;
   height: 100vh;
-  background: #000;
 }
 #graphic .graphic-inner {
   padding-top: 100px;

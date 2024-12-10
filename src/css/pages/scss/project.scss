@@ -1,11 +1,10 @@
 :root {
     --card-rotate: 150deg;
-    --plus-rotate: 60deg; // 카드간의 거리
+    --plus-rotate: 60deg;
 }
 
 #project {
     height: 90vh;
-    background: #000;
 
     .project-inner {
         display: flex;
@@ -96,10 +95,10 @@
                 }
 
                 .card {
-                    width: 260px;
-                    height: 360px;
+                    width: 300px;
+                    height: 300px;
                     margin: 0 auto;
-                    border-radius: 50px;
+                    border-radius: 50%;
                     background: #fff;
 
                     .card-desc {
@@ -118,6 +117,7 @@
                         h2 {
                             color: #01032D;
                         }
+
                     }
 
                 }
@@ -161,6 +161,38 @@
                 display: flex;
                 align-items: center;
             }
+        }
+    }
+
+    .container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: 50px auto;
+
+        .text-circle {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            transform-origin: center;
+            transform: rotate(-60deg);
+            transition: transform 1s ease;
+            // visibility: hidden;
+        }
+
+        &:hover .text-circle {
+            transform: rotate(-30deg);
+            // visibility: visible;
+        }
+
+        text {
+            font-size: 14px;
+            font-weight: 700;
+            fill: #70BDF5;
+            text-anchor: middle;
+            // font-family: "Abhaya Libre", serif;
         }
     }
 

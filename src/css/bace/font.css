@@ -8,17 +8,17 @@
 
 @font-face {
     font-family: "NotoSans-Regular";
-    src: url(../notosans/NotoSansKR-Regular.ttf);
+    src: url(./notosans/NotoSansKR-Regular.ttf);
 }
 
 @font-face {
     font-family: "NotoSans-Light";
-    src: url(../notosans/NotoSansKR-Light.ttf);
+    src: url(./notosans/NotoSansKR-Light.ttf);
 }
 
 @font-face {
     font-family: "NotoSans-SemiBold";
-    src: url(../notosans/NotoSansKR-SemiBold.ttf);
+    src: url(./notosans/NotoSansKR-SemiBold.ttf);
 }
 
 @font-face {

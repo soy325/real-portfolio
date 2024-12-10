@@ -5,7 +5,6 @@
 
 #project {
   height: 90vh;
-  background: #000;
 }
 #project .project-inner {
   display: flex;
@@ -87,10 +86,10 @@
   opacity: 1;
 }
 #project .wrap .rot__box .card__box .card {
-  width: 260px;
-  height: 360px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 50%;
   background: #fff;
 }
 #project .wrap .rot__box .card__box .card .card-desc {
@@ -141,6 +140,31 @@
 #project .wrap .btn > div {
   display: flex;
   align-items: center;
+}
+#project .container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+}
+#project .container .text-circle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  transform-origin: center;
+  transform: rotate(-60deg);
+  transition: transform 1s ease;
+}
+#project .container:hover .text-circle {
+  transform: rotate(-30deg);
+}
+#project .container text {
+  font-size: 14px;
+  font-weight: 700;
+  fill: #70BDF5;
+  text-anchor: middle;
 }
 #project .card__box:nth-child(2) {
   transform: rotate(var(--card-rotate));

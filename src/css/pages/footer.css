@@ -1,7 +1,7 @@
 #contacts {
   height: 50vh;
-  background: #000;
   contain: paint;
+  background: #000;
 }
 #contacts .splide__track {
   background-image: linear-gradient(to right, #152042, #22315b, #2f4476, #3b5791, #476cae, #476cae, #476cae, #476cae, #3b5791, #2f4476, #22315b, #152042);
