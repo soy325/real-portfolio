@@ -1,4 +1,6 @@
+
 export function home() {
+
     const intro = gsap.timeline();
     intro.from('.ltText', { x: -1000, opacity: 0, duration: .35 });
     intro.from(".rtText", { x: 1000, opacity: 0, duration: .35 });
@@ -14,11 +16,11 @@ export function home() {
         animation: introzoom,
         trigger: '#intro',
         start: "top top",
-        end: "+=1000",
-        anticipatePin: 1,
+        // end: "+=1000",
+        end: "bottom top",
+        // anticipatePin: 1,
         pin: true,
         scrub: true,
-
     })
-
+    
 }

@@ -1,7 +1,7 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
 #about {
-    background-image: url(../../../assets/about/about-bg.jpg);
+    background-image: url(/src/assets/about/about-bg.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -109,3 +109,9 @@
         }
     }
 }
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:1200px) {}

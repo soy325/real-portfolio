@@ -41,8 +41,6 @@ export function link() {
       onUpdate:(self)=>{
         self.direction===-1 ? showNav.play():showNav.reverse()
       }
-
-
     })
 
     //버튼 활성화 비활성화----------------------------------------

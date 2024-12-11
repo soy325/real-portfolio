@@ -1,7 +1,7 @@
 export function swiper() {
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 30,
+        slidesPerView: 1,
+        // spaceBetween: 10,
         loop: true,
         mousewheel: true,
         pagination: {
@@ -11,5 +11,10 @@ export function swiper() {
         navigation: {
             nextEl: ".next",
         },
+        breakpoints: {
+                768: {
+                  slidesPerView: "auto",  
+                  spaceBetween: 30,   
+                },}
     });
 }

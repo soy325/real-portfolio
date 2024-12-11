@@ -11,11 +11,21 @@ export function graphic() {
         ease: "none",
         scrollTrigger: {
             trigger: horizontal,
-            start: 'top top',
+            start: 'top+=1000 top',
             end: '+=1000',
             pin: true,
-            scrub:1,
+            scrub:true,
             // snap:'none'
+            markers:true,
+            // onEnter:()=>{
+            //     horizontal.pin = true;
+            //     // horizontal.refresh();
+            // },
+            // onLeave:()=>{
+            //     horizontal.pin = false;
+            //     // horizontal.refresh();
+            // },
         }
     })
+
 }
