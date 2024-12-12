@@ -82,6 +82,13 @@
   left: 0px;
   transform: translateY(-50%);
 }
+#about .about_wrap .txt ul .title4.on:after {
+  content: "04.";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+}
 #about .about_wrap ul.cont {
   width: 50%;
   position: relative;

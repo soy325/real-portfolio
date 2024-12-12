@@ -30,4 +30,13 @@ export function about() {
         scrub: 2,
       }
     });
+
+    gsap.to(".about_wrap .title4", {
+      scrollTrigger: {
+        trigger: ".about_wrap .cont04",
+        start: "top top",
+        toggleClass: { targets: '.about_wrap .title4', className: 'on' },
+        scrub: 2,
+      }
+    });
 }

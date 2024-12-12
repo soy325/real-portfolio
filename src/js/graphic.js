@@ -5,27 +5,29 @@ export function graphic() {
     gsap.registerPlugin(ScrollTrigger);
 
     const horizontal = document.querySelector('#graphic')
+    // const graphicArea = horizontal.parentElement
+    // console.log(graphicArea);
     const articles = gsap.utils.toArray('.graphic__list')
-    gsap.to(articles, {
+    const graphic = gsap.to(articles, {
         xPercent: -100 * (articles.length - 1),
         ease: "none",
+        
         scrollTrigger: {
             trigger: horizontal,
-            start: 'top+=1000 top',
-            end: '+=1000',
+            start: 'top top',
+            end: 'bottom top',
             pin: true,
             scrub:true,
+            // pinSpacing: true,
             // snap:'none'
             markers:true,
-            // onEnter:()=>{
-            //     horizontal.pin = true;
-            //     // horizontal.refresh();
-            // },
-            // onLeave:()=>{
-            //     horizontal.pin = false;
-            //     // horizontal.refresh();
-            // },
+            onEnter:()=>{
+                graphic.scrollTrigger.pin = true;
+                graphic.scrollTrigger.refresh();
+            },
+            onLeave:()=>{
+                graphic.scrollTrigger.pin = false;
+            },
         }
     })
-
 }
