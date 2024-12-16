@@ -1,10 +1,8 @@
 export function swiper() {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
-        // spaceBetween: 10,
         loop: true,
         mousewheel: true,
-        // freeMode: true, // 슬라이드의 자유 이동 활성화
         pagination: {
             el: ".swiper-pagination",
             type: "fraction",
@@ -14,8 +12,7 @@ export function swiper() {
         },
         breakpoints: {
             768: {
-                slidesPerView: "auto",
-                //   spaceBetween: 30,   
+                slidesPerView: "auto",  
             },
         }
     });

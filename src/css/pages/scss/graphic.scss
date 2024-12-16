@@ -2,35 +2,7 @@
     position: relative;
     height: 100vh;
 
-
-    .graphic-inner {
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-bottom: 50px;
-
-        h2 {
-            font-size: 70px;
-            font-family: "Abhaya Libre", serif;
-            color: #70BDF5;
-        }
-
-        p {
-            color: #fff;
-            font-size: 18px;
-            padding-top: 10px;
-        }
-    }
-
     .graphic__wrap {
-        display: flex;
-        width: 150%;
-        gap: 100px;
-        margin-top: 100px;
-        margin-left: 80px;
-        align-items: flex-start;
-        padding: 0 100px;
-        height: 100vh;
-
         .graphic__list {
             position: relative;
             width: 17vw;
@@ -83,8 +55,99 @@
     }
 }
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+    #graphic {
+        .graphic-inner {
+            padding-left: 50px;
+            padding-top: 50px;
 
-@media (min-width:768px) {}
+            h2 {
+                font-size: 70px;
+                font-family: "Abhaya Libre", serif;
+                color: #70BDF5;
+            }
 
-@media (min-width:1200px) {}
+            p {
+                color: #fff;
+                font-size: 18px;
+                padding-top: 10px;
+                width: 70%;
+            }
+        }
+        .graphic__wrap {
+            display: flex;
+            // width: 400%;
+            gap: 200px;
+            margin-top: 100px;
+            margin-left: 20px;
+            align-items: flex-start;
+            padding: 0 100px;
+            height: 100vh;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    #graphic {
+        .graphic-inner {
+            padding-top: 100px;
+            padding-left: 100px;
+            padding-bottom: 50px;
+
+            h2 {
+                font-size: 70px;
+                font-family: "Abhaya Libre", serif;
+                color: #70BDF5;
+            }
+
+            p {
+                color: #fff;
+                font-size: 18px;
+                padding-top: 10px;
+            }
+        }
+        .graphic__wrap {
+            display: flex;
+            width: 150%;
+            gap: 100px;
+            margin-top: 100px;
+            margin-left: 80px;
+            align-items: flex-start;
+            padding: 0 100px;
+            height: 100vh;
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    #graphic {
+        .graphic-inner {
+            padding-top: 100px;
+            padding-left: 100px;
+            padding-bottom: 50px;
+
+            h2 {
+                font-size: 70px;
+                font-family: "Abhaya Libre", serif;
+                color: #70BDF5;
+            }
+
+            p {
+                color: #fff;
+                font-size: 18px;
+                padding-top: 10px;
+            }
+        }
+
+        .graphic__wrap {
+            display: flex;
+            width: 150%;
+            gap: 100px;
+            margin-top: 100px;
+            margin-left: 80px;
+            align-items: flex-start;
+            padding: 0 100px;
+            height: 100vh;
+        }
+    }
+}

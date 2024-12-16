@@ -2,31 +2,6 @@
   position: relative;
   height: 100vh;
 }
-#graphic .graphic-inner {
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-bottom: 50px;
-}
-#graphic .graphic-inner h2 {
-  font-size: 70px;
-  font-family: "Abhaya Libre", serif;
-  color: #70BDF5;
-}
-#graphic .graphic-inner p {
-  color: #fff;
-  font-size: 18px;
-  padding-top: 10px;
-}
-#graphic .graphic__wrap {
-  display: flex;
-  width: 150%;
-  gap: 100px;
-  margin-top: 100px;
-  margin-left: 80px;
-  align-items: flex-start;
-  padding: 0 100px;
-  height: 100vh;
-}
 #graphic .graphic__wrap .graphic__list {
   position: relative;
   width: 17vw;
@@ -69,4 +44,85 @@
 #graphic .graphic__wrap .graphic__list:hover img {
   margin-top: 0;
   filter: none;
+}
+
+@media (max-width: 767px) {
+  #graphic .graphic-inner {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  #graphic .graphic-inner h2 {
+    font-size: 70px;
+    font-family: "Abhaya Libre", serif;
+    color: #70BDF5;
+  }
+  #graphic .graphic-inner p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+    width: 70%;
+  }
+  #graphic .graphic__wrap {
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+    align-items: flex-start;
+    padding: 0 100px;
+    height: 100vh;
+  }
+}
+@media (min-width: 768px) {
+  #graphic .graphic-inner {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  #graphic .graphic-inner h2 {
+    font-size: 70px;
+    font-family: "Abhaya Libre", serif;
+    color: #70BDF5;
+  }
+  #graphic .graphic-inner p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  #graphic .graphic__wrap {
+    display: flex;
+    width: 150%;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 80px;
+    align-items: flex-start;
+    padding: 0 100px;
+    height: 100vh;
+  }
+}
+@media (min-width: 1200px) {
+  #graphic .graphic-inner {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  #graphic .graphic-inner h2 {
+    font-size: 70px;
+    font-family: "Abhaya Libre", serif;
+    color: #70BDF5;
+  }
+  #graphic .graphic-inner p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  #graphic .graphic__wrap {
+    display: flex;
+    width: 150%;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 80px;
+    align-items: flex-start;
+    padding: 0 100px;
+    height: 100vh;
+  }
 }

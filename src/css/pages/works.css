@@ -55,6 +55,12 @@
     border-radius: 50px;
     aspect-ratio: 1/1.3;
   }
+  #works article .swiper-container .swiper .swiper-slide.swiper-slide-active:hover figure > img {
+    filter: brightness(0.4);
+  }
+  #works article .swiper-container .swiper .swiper-slide.swiper-slide-active:hover figure figcaption {
+    opacity: 1;
+  }
   #works article .swiper-container .swiper .swiper-slide figure {
     overflow: hidden;
     padding-bottom: 70px;
@@ -70,22 +76,21 @@
     display: block;
   }
   #works article .swiper-container .swiper .swiper-slide figure figcaption {
-    width: 100%;
-    opacity: 1;
-    text-align: left;
+    opacity: 0;
+    text-align: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 50%;
     color: #fff;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    font-size: 14px;
+    font-size: 18px;
   }
   #works article .swiper-container .swiper .swiper-slide figure figcaption a {
     padding: 15px;
   }
   #works article .swiper-container .swiper .swiper-slide figure figcaption img {
-    width: 30px;
+    width: 50px;
   }
   #works article .swiper-container .swiper .swiper-slide:not(.swiper-slide-active) {
     transform: scale(0.8);
@@ -145,13 +150,13 @@
   }
   #works article .swiper-container {
     position: relative;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 120px;
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
@@ -162,7 +167,6 @@
     padding: 5px 0;
   }
   #works article .swiper-container .swiper .swiper-slide {
-    border: 1px solid #0f0;
     position: relative;
     height: 480px;
     width: 360px;
@@ -237,7 +241,7 @@
   }
   #works article .next {
     position: absolute;
-    left: 86px;
+    left: 15px;
     bottom: 402px;
     cursor: pointer;
     z-index: 99;
@@ -248,7 +252,7 @@
   #works article .swiper-pagination {
     position: absolute;
     top: 320px;
-    left: 297px;
+    left: 160px;
     font-weight: 700;
     width: 10%;
     height: 5%;
@@ -261,7 +265,7 @@
   }
   #works article .strok {
     position: absolute;
-    left: 130px;
+    left: 52px;
     bottom: 440px;
     width: 100%;
     height: 0;
@@ -288,7 +292,7 @@
     margin-top: 50px;
   }
   #works article .swiper-container {
-    border: 1px solid transparent;
+    border: 1px solid #fff;
     position: relative;
     width: 80%;
     overflow: hidden;
@@ -304,7 +308,6 @@
   #works article .swiper-container .swiper {
     width: 100%;
     height: 80%;
-    padding: 5px 0;
   }
   #works article .swiper-container .swiper .swiper-slide {
     position: relative;
@@ -312,6 +315,7 @@
     background: #fff;
     border-radius: 50px;
     overflow: hidden;
+    border: 1px solid #000;
   }
   #works article .swiper-container .swiper .swiper-slide.swiper-slide-active:hover figure > img {
     filter: brightness(0.4);

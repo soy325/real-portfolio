@@ -28,3 +28,42 @@
 #contacts .splide__track .splide__slide.is-active {
   color: #B4EDFF;
 }
+#contacts .footer-desc {
+  display: flex;
+  height: calc(100% - 75px);
+}
+#contacts .footer-desc > div {
+  width: 50%;
+}
+#contacts .footer-desc .desc-left {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#contacts .footer-desc .desc-left h2 {
+  font-family: "Abhaya Libre", serif;
+  color: #E7C700;
+  font-size: 70px;
+  padding-bottom: 30px;
+  font-weight: 900;
+}
+#contacts .footer-desc .desc-left p {
+  color: #fff;
+  font-size: 23px;
+}
+#contacts .footer-desc .desc-right {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-size: 18px;
+}
+#contacts .footer-desc .desc-right > p {
+  width: 50%;
+}
+#contacts .footer-desc .desc-right img {
+  width: 70px;
+}
