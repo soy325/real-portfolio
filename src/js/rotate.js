@@ -11,19 +11,20 @@ export function rotate() {
 
     // 화면에 보이는 card 제어
     function viewCard(dir, idx) {
+        console.log(idx);
         // console.log(dir);
-        if (dir === "prev") {
-            cardBoxs.forEach((card) => {
+        cardBoxs.forEach((card) => {
+            card.style.zIndex = "0";
+            cardBoxs[idx + 1].style.zIndex = "1";
+            if (dir === "prev") {
                 card.style.opacity = "0";
-            })
-            cardBoxs[0].style.opacity = "1";
-        }
-        if (dir === "next") {
-            cardBoxs.forEach((card) => {
+                cardBoxs[0].style.opacity = "1";
+            }
+            if (dir === "next") {
                 card.style.opacity = "1";
-            })
-            cardBoxs[0].style.opacity = "0";
-        }
+                cardBoxs[0].style.opacity = "0";
+            }
+        })
     }
 
     // card 회전 움직임

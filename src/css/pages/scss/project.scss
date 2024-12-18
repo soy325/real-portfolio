@@ -23,6 +23,17 @@
     }
 }
 
+
+.card__box{
+    pointer-events: none;
+    .container{
+        pointer-events:all;
+        .text-circle{
+            pointer-events: none;
+        }
+    }
+}
+
 @media (max-width:767px) {
     .project-inner {
         display: flex;
@@ -37,28 +48,6 @@
             padding-left: 20px;
         }
 
-        a {
-            width: 80px;
-            background: #fff;
-            color: #000;
-            display: flex;
-            gap: 20px;
-            border-radius: 50px;
-            padding: 5px 20px;
-            transition: 0.35s;
-            overflow: hidden;
-            user-select: none;
-
-            img {
-                width: 30px;
-                height: 30px;
-            }
-
-            &:hover {
-                width: 120px;
-                background: #70BDF5;
-            }
-        }
 
     }
     .wrap {
@@ -133,7 +122,29 @@
                             text-align: center;
                             color: #fff;
                             font-size: 20px;
-                            opacity: 0;
+                            // opacity: 0;
+                            // a {
+                            //     width: 80px;
+                            //     background: #fff;
+                            //     color: #000;
+                            //     display: flex;
+                            //     gap: 20px;
+                            //     border-radius: 50px;
+                            //     padding: 5px 20px;
+                            //     transition: 0.35s;
+                            //     overflow: hidden;
+                            //     user-select: none;
+                    
+                            //     img {
+                            //         width: 30px;
+                            //         height: 30px;
+                            //     }
+                    
+                            //     &:hover {
+                            //         width: 120px;
+                            //         background: #70BDF5;
+                            //     }
+                            // }
                         }
 
 

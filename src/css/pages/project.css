@@ -19,6 +19,16 @@
   transform: rotate(calc(var(--card-rotate) + var(--plus-rotate) * 3));
 }
 
+.card__box {
+  pointer-events: none;
+}
+.card__box .container {
+  pointer-events: all;
+}
+.card__box .container .text-circle {
+  pointer-events: none;
+}
+
 @media (max-width: 767px) {
   .project-inner {
     display: flex;
@@ -31,28 +41,6 @@
     font-family: "Abhaya Libre", serif;
     font-size: 50px;
     padding-left: 20px;
-  }
-  .project-inner a {
-    width: 80px;
-    background: #fff;
-    color: #000;
-    display: flex;
-    gap: 20px;
-    border-radius: 50px;
-    padding: 5px 20px;
-    transition: 0.35s;
-    overflow: hidden;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-  }
-  .project-inner a img {
-    width: 30px;
-    height: 30px;
-  }
-  .project-inner a:hover {
-    width: 120px;
-    background: #70BDF5;
   }
   .wrap {
     width: 100vw;
@@ -122,7 +110,6 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
-    opacity: 0;
   }
   .wrap .rot__box .card__box .txt__type {
     color: #fff;
