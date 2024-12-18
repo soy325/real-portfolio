@@ -4,9 +4,9 @@
 
 export function link() {
     //각각의 section의 위치정보 ----------------------------------------
-    let links = gsap.utils.toArray('nav ul li a')
+    let links = gsap.utils.toArray('nav ul li')
     links.forEach(link => {
-      let elem = document.querySelector(link.getAttribute('href'))
+      let elem = document.querySelector(link.querySelector("a").getAttribute('href'))
       ScrollTrigger.create({
         trigger: elem,
         start: 'top center',

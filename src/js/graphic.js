@@ -20,7 +20,7 @@ export function graphic() {
             scrub:true,
             // pinSpacing: true,
             // snap:'none'
-            markers:true,
+            // markers:true,
             onEnter:()=>{
                 graphic.scrollTrigger.pin = true;
                 graphic.scrollTrigger.refresh();

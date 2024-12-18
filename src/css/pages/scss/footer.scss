@@ -2,7 +2,176 @@
     height: 50vh;
     contain: paint;
     background: #000;
+}
 
+@media (max-width:767px) {
+    .splide__track {
+
+        background-image: linear-gradient(to right, #152042, #22315b, #2f4476, #3b5791, #476cae, #476cae, #476cae, #476cae, #3b5791, #2f4476, #22315b, #152042);
+
+        .splide__list {
+            display: flex;
+        }
+
+        .splide__slide {
+            padding: 20px;
+            color: #fff;
+            font-size: 5vw;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            letter-spacing: 3px;
+            color: #fff;
+
+            &.en {
+                font-family: "Abhaya Libre", serif;
+            }
+
+            &.is-active {
+                color: #B4EDFF;
+            }
+
+        }
+
+    }
+
+    .footer-desc {
+        .desc-left {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                font-family: "Abhaya Libre", serif;
+                color: #E7C700;
+                font-size: 50px;
+                padding: 30px 0;
+                font-weight: 900;
+            }
+
+            p {
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+
+        .desc-right {
+            color: #fff;
+            text-align: center;
+            letter-spacing: 2px;
+            align-items: center;
+            font-size: 18px;
+            padding-top: 50px;
+
+
+            &>p {
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                span{
+                    padding-left: 20px;
+                }
+            }
+
+            img {
+                width: 50px;
+            }
+
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .splide__track {
+
+        background-image: linear-gradient(to right, #152042, #22315b, #2f4476, #3b5791, #476cae, #476cae, #476cae, #476cae, #3b5791, #2f4476, #22315b, #152042);
+
+        .splide__list {
+            display: flex;
+        }
+
+        .splide__slide {
+            padding: 25px;
+            color: #fff;
+            font-size: 2vw;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            letter-spacing: 3px;
+            color: #fff;
+
+            &.en {
+                font-family: "Abhaya Libre", serif;
+            }
+
+            &.ko {
+                font-size: 23px;
+            }
+
+            &.is-active {
+                color: #B4EDFF;
+            }
+
+        }
+
+    }
+
+    .footer-desc {
+        display: flex;
+        height: calc(100% - 75px);
+
+        &>div {
+            width: 50%;
+        }
+
+        .desc-left {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                font-family: "Abhaya Libre", serif;
+                color: #E7C700;
+                font-size: 50px;
+                padding-bottom: 30px;
+                font-weight: 900;
+            }
+
+            p {
+                color: #fff;
+                font-size: 23px;
+            }
+        }
+
+        .desc-right {
+            display: flex;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 2px;
+            align-items: center;
+            font-size: 18px;
+
+            &>p {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            img {
+                width: 70px;
+            }
+
+        }
+    }
+}
+
+@media (min-width:1200px) {
     .splide__track {
 
         background-image: linear-gradient(to right, #152042, #22315b, #2f4476, #3b5791, #476cae, #476cae, #476cae, #476cae, #3b5791, #2f4476, #22315b, #152042);
@@ -44,45 +213,47 @@
         &>div {
             width: 50%;
         }
-        .desc-left{
+
+        .desc-left {
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            h2{
+
+            h2 {
                 font-family: "Abhaya Libre", serif;
-                color:  #E7C700;
+                color: #E7C700;
                 font-size: 70px;
                 padding-bottom: 30px;
                 font-weight: 900;
             }
-            p{
+
+            p {
                 color: #fff;
                 font-size: 23px;
             }
         }
-        .desc-right{
+
+        .desc-right {
             display: flex;
             color: #fff;
             text-align: center;
             letter-spacing: 2px;
             align-items: center;
             font-size: 18px;
-            &>p{
+
+            &>p {
                 width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
-            img{
+
+            img {
                 width: 70px;
             }
 
         }
     }
-
 }
-
-@media (max-width:767px) {}
-
-@media (min-width:768px) {}
-
-@media (min-width:1200px) {}
