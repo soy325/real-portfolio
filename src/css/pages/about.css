@@ -7,7 +7,7 @@
   position: relative;
   height: auto;
   font-family: "Pretendard";
-  height: auto;
+  height: 100vh;
 }
 
 @media (max-width: 767px) {
@@ -435,4 +435,4 @@
   .about_wrap ul.desc li .cont-container .cont-box .box-inner .img img {
     width: 70px;
   }
-}
+}/*# sourceMappingURL=about.css.map */

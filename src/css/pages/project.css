@@ -4,7 +4,7 @@
 }
 
 #project {
-  height: 90vh;
+  height: 100vh;
 }
 #project .card__box:nth-child(2) {
   transform: rotate(var(--card-rotate));
@@ -46,7 +46,7 @@
     width: 100vw;
     height: 70vh;
     position: relative;
-    overflow: hidden;
+    border: 1px solid #f0f;
   }
   .wrap::before {
     content: "";
@@ -209,7 +209,7 @@
     width: 100vw;
     height: 70vh;
     position: relative;
-    overflow: hidden;
+    border: 1px solid #f0f;
   }
   .wrap::before {
     content: "";
@@ -342,7 +342,7 @@
     padding-top: 100px;
   }
   .project-inner h2 {
-    color: #70BDF5;
+    color: #fff;
     font-family: "Abhaya Libre", serif;
     font-size: 70px;
     padding-left: 100px;
@@ -351,7 +351,6 @@
     width: 100vw;
     height: 70vh;
     position: relative;
-    overflow: hidden;
   }
   .wrap::before {
     content: "";
@@ -481,7 +480,6 @@
     width: 300px;
     height: 300px;
     margin: 50px auto;
-    border: 1px solid #f00;
   }
   .container .text-circle {
     width: 400px;
@@ -502,4 +500,4 @@
     fill: #70BDF5;
     text-anchor: middle;
   }
-}
+}/*# sourceMappingURL=project.css.map */

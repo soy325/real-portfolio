@@ -24,11 +24,13 @@
 }
 
 
-.card__box{
+.card__box {
     pointer-events: none;
-    .container{
-        pointer-events:all;
-        .text-circle{
+
+    .container {
+        pointer-events: all;
+
+        .text-circle {
             pointer-events: none;
         }
     }
@@ -50,11 +52,13 @@
 
 
     }
+
     .wrap {
         width: 100vw;
         height: 70vh;
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
+
 
         &::before {
             content: "";
@@ -134,12 +138,12 @@
                             //     transition: 0.35s;
                             //     overflow: hidden;
                             //     user-select: none;
-                    
+
                             //     img {
                             //         width: 30px;
                             //         height: 30px;
                             //     }
-                    
+
                             //     &:hover {
                             //         width: 120px;
                             //         background: #70BDF5;
@@ -272,7 +276,8 @@
         width: 100vw;
         height: 70vh;
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
+       /
 
         &::before {
             content: "";
@@ -433,7 +438,8 @@
         padding-top: 100px;
 
         h2 {
-            color: #70BDF5;
+            // color: #70BDF5;
+            color: #fff;
             font-family: "Abhaya Libre", serif;
             font-size: 70px;
             padding-left: 100px;
@@ -444,7 +450,7 @@
         width: 100vw;
         height: 70vh;
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
 
         &::before {
             content: "";
@@ -512,6 +518,7 @@
                             text-align: center;
                             color: #fff;
                             font-size: 20px;
+
                             // opacity: 0;
                             a {
                                 margin-top: 20px;
@@ -528,18 +535,18 @@
                                 overflow: hidden;
                                 user-select: none;
                                 z-index: 9;
-                    
+
                                 img {
                                     width: 30px;
                                     height: 30px;
                                 }
-                    
+
                                 &:hover {
                                     width: 150px;
                                     background: #70BDF5;
                                 }
                             }
-                    
+
                         }
 
 
@@ -594,7 +601,6 @@
         width: 300px;
         height: 300px;
         margin: 50px auto;
-        border: 1px solid #f00;
 
 
         .text-circle {
