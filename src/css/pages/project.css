@@ -46,7 +46,6 @@
     width: 100vw;
     height: 70vh;
     position: relative;
-    border: 1px solid #f0f;
   }
   .wrap::before {
     content: "";
@@ -209,7 +208,6 @@
     width: 100vw;
     height: 70vh;
     position: relative;
-    border: 1px solid #f0f;
   }
   .wrap::before {
     content: "";
@@ -500,4 +498,4 @@
     fill: #70BDF5;
     text-anchor: middle;
   }
-}/*# sourceMappingURL=project.css.map */
+}

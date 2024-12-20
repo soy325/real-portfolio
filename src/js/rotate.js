@@ -10,7 +10,7 @@ export function rotate() {
 
 
     // 화면에 보이는 card 제어
-    function viewCard(dir, idx) {
+   function viewCard(dir, idx) {
         console.log(idx);
         // console.log(dir);
         cardBoxs.forEach((card) => {

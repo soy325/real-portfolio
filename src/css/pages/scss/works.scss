@@ -1,10 +1,10 @@
 #works {
     height: 100vh;
     position: relative;
+    padding: 80px;
+    border: 1px solid #0f0;
 
     .works-inner {
-        padding-top: 100px;
-        padding-left: 100px;
         padding-bottom: 50px;
 
         h2 {
@@ -24,7 +24,6 @@
 @media (max-width:767px) {
     #works {
         .works-inner {
-            padding: 50px 0 0 50px;
 
             h2 {
                 font-size: 60px;
@@ -40,7 +39,6 @@
         }
 
         article {
-            margin-top: 100px;
 
             .swiper-container {
                 border: 1px solid transparent;
@@ -178,9 +176,6 @@
 @media (min-width:768px) {
     #works {
         article {
-            // border: 1px solid #fff;
-            margin-top: 50px;
-
             .swiper-container {
                 position: relative;
                 width: 100%;
@@ -333,9 +328,6 @@
 @media (min-width:1200px) {
     #works {
         .works-inner {
-            padding-top: 100px;
-            padding-left: 100px;
-            padding-bottom: 50px;
 
             h2 {
                 font-size: 70px;
@@ -351,24 +343,21 @@
         }
 
         article {
-            border: 1px solid transparent;
-            margin-top: 50px;
+            position: relative;
 
             .swiper-container {
-                // border: 1px solid #fff;
                 position: relative;
-                width: 80%;
+                width: 90%;
                 overflow: hidden;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-top: 50px;
-                margin-left: 300px;
+                margin-left: 200px;
                 user-select: none;
+
                 .swiper {
                     width: 100%;
-                    height: 80%;
-                    // padding: 5px 0;
+                    height: 100%;
 
                     .swiper-slide {
                         position: relative;
@@ -468,8 +457,9 @@
 
             .next {
                 position: absolute;
-                left: 86px;
-                bottom: 402px;
+                left: 0;
+                bottom: 50%;
+                transform: translateY(50%);
                 cursor: pointer;
                 z-index: 99;
 
@@ -480,8 +470,8 @@
 
             .swiper-pagination {
                 position: absolute;
-                top: 320px;
-                left: 297px;
+                top: -50px;
+                left: 200px;
                 font-weight: 700;
                 width: 10%;
                 height: 5%;
@@ -496,8 +486,9 @@
 
             .strok {
                 position: absolute;
-                left: 130px;
-                bottom: 440px;
+                left: 3%;
+                bottom: 50%;
+                transform: translateY(50%);
                 width: 100%;
                 height: 0;
             }

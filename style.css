@@ -50,6 +50,5 @@ body{
 section{
     background: #000;
     contain: paint;
-    border: 1px solid #f00;
     min-height: 100vh;
 }
