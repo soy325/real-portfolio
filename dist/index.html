@@ -3,19 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/assets/space-Zhxv8esI.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PORTFOLIO</title>
+    <title>PORTFOLIO</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <script type="module" crossorigin src="/assets/index-BLlKzYBn.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BW0zihn2.css">
+  <script type="module" crossorigin src="/assets/index-DCnbkGqq.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Bk5g3pAr.css">
 </head>
-
 <body>
+    <div id="custom-cursor"><em></em></div>
     <header id="header">
         <nav>
             <ul class="header__pc">
-                <li><a href="#intro" class="on">Home</a></li>
+                <li class="on"><a href="#intro">Home</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#graphic">Graphic</a></li>
@@ -30,10 +30,11 @@
     </header>
     <main>
         <section id="intro">
-            <div class="intro-inner">
-                <span>2024 PORTFOLIO</span>
-                <h1>Infinite Universe</h1>
-            </div>
+            <h1 class="flex">
+                <span class="ltText">CREATIVE</span>
+                <em class="my">Infinite&nbsp;Universe</em>
+                <span class="rtText">ADVENTURER</span>
+            </h1>
         </section>
         <section id="works">
             <div class="works-inner">
@@ -45,163 +46,280 @@
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item1-DQvTTV7L.png" alt=""></figure>
+                                <figure><img src="/assets/item1-DQvTTV7L.png" alt="">
+                                    <figcaption>위글위글 특징을 살려<br> Callback animation을<br> 활용하여 만든 사이트 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">위글위글</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Callback animation / Swiper / jQuery</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item2-CzpYMoiw.png" alt=""></figure>
+                                <figure><img src="/assets/item2-CzpYMoiw.png" alt="">
+                                    <figcaption>국립광주어린이박물관 사이트를<br>Clone 코딩하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">어린이박물관</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>animation</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item3-gmgiBdDV.png" alt=""></figure>
+                                <figure><img src="/assets/item3-gmgiBdDV.png" alt="">
+                                    <figcaption>디즈니 영화를 활용해<br>Grid를 사용하여 만든 사이트 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">디즈니</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt="">
+                                        </li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Grid / jQuery</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item5-BTpIIMnP.png" alt=""></figure>
+                                <figure><img src="/assets/item5-BTpIIMnP.png" alt="">
+                                    <figcaption>입생로랑 제품을 활용하여<br> Traversing을 활용하여 핸드폰 프레임에<br> 적용하여 만든 사이트 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">입생로랑</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>jQuery / Traversing</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item4-BEyoUpQj.png" alt=""></figure>
+                                <figure><img src="/assets/item4-CHWYda9Y.png" alt="">
+                                    <figcaption>Float을 활용하여 만든<br> 짱구는 못말려 사이트 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">짱구는 못말려</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Float</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item6-2_EM5w1x.png" alt=""></figure>
+                                <figure><img src="/assets/item6-2_EM5w1x.png" alt="">
+                                    <figcaption>position sticky와<br> Background attachment를<br>활용하여 3.42 STAY
+                                        홈페이지를<br>리디자인 하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">3.42 STAY</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>sticky / attachment</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item7-uu4u8krq.png" alt=""></figure>
+                                <figure><img src="/assets/item7-uu4u8krq.png" alt="">
+                                    <figcaption>지브리 영화를 활용하여<br>Scroll bar를 적용하여<br>만든 사이트 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">지브리</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt="">
+                                        </li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Scroll bar / jQuery</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item8-Dos9DoW8.png" alt=""></figure>
+                                <figure><img src="/assets/item8-Dos9DoW8.png" alt="">
+                                    <figcaption>롯데칠성음료 사이트 일부를<br>Clone 코딩하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">칠성사이다</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Swiper / java script</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item9-JjJLILdY.png" alt=""></figure>
-                                <div class="desc">
-                                    <ul class="desc-inner">
-                                        <li><a href="#">시엔느</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
-                                    </ul>
-                                    <p>Delay animation / Swiper</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure><img src="/assets/item10-Bo2ZfWvi.png" alt=""></figure>
-                                <div class="desc">
-                                    <ul class="desc-inner">
-                                        <li><a href="#">소노리조트</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
-                                    </ul>
-                                    <p>Delay animation / Swiper</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure><img src="/assets/item11-DewOovOX.png" alt=""></figure>
+                                <figure><img src="/assets/item11-DGUQv4xs.png" alt="">
+                                    <figcaption>청와대 국민 청원 홈페이지를<br>Scroll event와 splittext를<br>활용하여 Clone 코딩하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">청와대</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Scroll event / splittext / javascript</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item12-DAlxQYIA.png" alt=""></figure>
+                                <figure><img src="/assets/item9-JjJLILdY.png" alt="">
+                                    <figcaption>시엔느의 상품을 활용하여<br> animation을 적용하여 만든 사이트 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
-                                        <li><a href="#">YES24</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><a href="#">시엔느</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>animation / jQuery</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item13-CsQcGBV1.png" alt=""></figure>
+                                <figure><img src="/assets/item10-Bo2ZfWvi.png" alt="">
+                                    <figcaption>patch를 활용하여<br> 소노리조트를 리디자인 한 사이트입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
+                                <div class="desc">
+                                    <ul class="desc-inner">
+                                        <li><a href="#">소노리조트</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
+                                    </ul>
+                                    <p>Patch / javascript</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure><img src="/assets/item13-CsQcGBV1.png" alt="">
+                                    <figcaption>swiper, jQuery, vanilla script를<br>적용하여 에이스 침대 사이트를 <br> Clone코딩 하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
                                         <li><a href="#">에이스침대</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Swiper / jQuery / vanilla script</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item1-DQvTTV7L.png" alt=""></figure>
+                                <figure><img src="/assets/item12-CU2ORHkZ.png" alt="">
+                                    <figcaption>예스24 사이트에 <br> accordion을 추가 적용하여 <br> Clone코딩 하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
-                                        <li><a href="#">위글위글</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><a href="#">YES24</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>accordion / Swiper / javascript</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item3-gmgiBdDV.png" alt=""></figure>
+                                <figure><img src="/assets/item16-CcONtrYB.png" alt="">
+                                    <figcaption>HLL사이트를 Clone코딩 하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
-                                        <li><a href="#">위글위글</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><a href="#">HLL</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""><img
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>Mouse wheel event / javascript</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <figure><img src="/assets/item4-BEyoUpQj.png" alt=""></figure>
+                                <figure><img src="/assets/item14-SWeMBpXb.png" alt="">
+                                    <figcaption>뮤고박스 사이트의 일부를<br> Clone코딩 하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
                                 <div class="desc">
                                     <ul class="desc-inner">
-                                        <li><a href="#">위글위글</a></li>
-                                        <li><a href="#"><img src="./src/assets/works/icon.png " alt=""></a></li>
+                                        <li><a href="#">뮤고박스</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
                                     </ul>
-                                    <p>Delay animation / Swiper</p>
+                                    <p>animation / javascript</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure><img src="/assets/item17-COjcUcGs.png" alt="">
+                                    <figcaption>죠스떡볶이 사이트를 Clone코딩 하였습니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
+                                <div class="desc">
+                                    <ul class="desc-inner">
+                                        <li><a href="#">죠스떡볶이</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
+                                    </ul>
+                                    <p>Clone코딩</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure><img src="/assets/item18-D-luc2tx.png" alt="">
+                                    <figcaption>조말론 제품을 활용하여 <br> transform skew를 활용하여 <br> 리다지인한 사이트입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
+                                <div class="desc">
+                                    <ul class="desc-inner">
+                                        <li><a href="#">조말론</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
+                                    </ul>
+                                    <p>transform</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure><img src="/assets/item19-3SLRX8eO.png" alt="">
+                                    <figcaption>Background attachment를<br>활용하여 리지다인한 페이지 입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
+                                <div class="desc">
+                                    <ul class="desc-inner">
+                                        <li><a href="#">러쉬</a></li>
+                                        <li><a href="#"><img src="./src/assets/works/pc.png " alt=""><img
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGISURBVHgB7Zc/S8NAGMbfXLQiAV2kgiiUih9BHB2sOjj7DfoHoe4OQsjiGHBK4qJ+BCdnVyHioIvg4GDQioMiSJIm8Qm00OUu10hRaH7wchfe5+65uwTuDdEfooiStm2vMMb2kyRZwqNKciSId0VRzpvN5hXlMbcsq6yqqgvjRcpHB+M36vX6HU/AuAnGDn5hnFKOouhQJGCC3EK/g0V00XRkAtrvgTkqjuNM8gwmKHthnzi+bcQjSeD7/jy0F3EcV0m8OaF5nwdM5DYajZDkeMNuXbTVLCGjbBIaETLmI6MwL8wL88K8MB9P87lSqaSRJLqup9f0rIw28z5HIVgJguAEd/Q9yZGWXpsywkxzlEVpkbnbi0GusbAPtLWeZmjyvvPbVqu1htJ4C1XOGeVEZB4LcqFpmtNpB7ufEc3heR63EhIduyfIrWqadonv4Av9Gk+E1/FsGEaXl+fuHBXoMQa/EJ91xA5iipN/xRxHgvHZv0s41j10l4f5qDDmKQzD03a7fUP/lR8MZ4CceDCbqgAAAABJRU5ErkJggg==" alt=""></a></li>
+                                    </ul>
+                                    <p>attachment</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure><img src="/assets/item15-jMTSNUER.png" alt="">
+                                    <figcaption>우담라이트 사이트 일부를<br> Clone코딩 한 페이지입니다.
+                                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARPSURBVHgB7ZlNbBNHFMffGy9JVUEupMKoQWqR2phLm4SoEremt35cKpUmkVGlVv1Iaure2gNSI7fl0J7aBCdNW7VSlZbEqXopcARuIOGAcyHAhQOEJMIICAKC7Z3HG8sIhGZnx2vHrIR/h3iy83Z3/jtv5715C9CkSZOnAoQ6MTJCYmHL6dcEiD4C6kXATj68BQjaKnda5T/L3HeeAOZERBztvPLKqVQKJdSBmoXEf5vvkAU3QQhxvty2as5lQYs8gIOFkvj5v+Srl6EGAgv54MDC5gLe/Z4AP0KEFqgBIigg4h9uSX4zm+y5CgEIJGQgnesnlGl2n81QX/JSUDIz1HMQqqQqIZ9OZjesus4oP8MhWF9+Xd7RlTjehyXbE6yFvDOZfXajG5lRTWgA7G5Hbjvu7kOf9d6xsRc2RmomWEQGGiRCwe/dWxuL4t/Xj5FjY28l5GbJGeOft6HRCHwzujA/ZmPq61qD6dODhPgPBGMVCfarBi/P+/inDaqFfYwEDM4M90ybzIxCBiez7dIV54KuTpLg60yi+8fytdJnvmIxP0Aw8i3ymdhfe3dc8zIwuha5zne1LLHs5xcftOUj7QC0FyNr35oMPIXER+c7OPJ+CCFBSvg4Pnqyw6vfU4jruHsRqBVCgsoeXKf1c69+rRCVAPLbGYfQgXvKY9OgPaiyWF4GPKfxyUHbzkbne3U9HupEH4QUAfIN/XENaj8BIYVX0Z2640JvLF6GkMIPuVN3XJvHEMmtvD8AA+WI7RcbnA3ixKPtUlG+b7IXBC/6ZQBIuFV7L60x4CYwwBF7/4OIbcvfn5R3gLN+dpwBgCkD4NimHZtV0vg4EVg/yMcVvNC7FtAtU2qipl89ORvXqsxEeW/PrrXLZI+StvO995mUcN8t7b20xiiWeLimHKtNTb/fo6u8E7OV9i62zxhPEOibjhPSkvZUrTHICxBSWOp53XGP5RezEFaItGPTv+xcPIOQQg5qx6YVoiqA7F81FczWB7oUW+ya0/VohagyJgmcgtCBU14lVs84UiximquI9yAkcCC85yKmvfo9hahaLJL8E0ICL8u/zw53LXr1GyO729qi8p48BETlTg8HgtshMJRfk4URk4VvOjDwS64fXDkNwTKHcnJJxGFMoIrYm6q+ApeDpMD+zHC3MZhajW5gPDfRgHqvFs4gxmeGuxN+dlZJ4/LK9S/4xf8fGgzP45GVWNeXNrZWQo6n+kq3I6WBhoohPCzvPveebUW+KsdXBeXoQu4n9ttEwHfGH1UiRZxYWbmRVA/Q9rSAH3rm+gHFAW62Q12hPG/akplE9R96Am2sphM7Z9a4FsuTMs7/1hw0VbDj7fX4mizGgohQ1Owfuydyz0cIhtgh9vDFXoDq4ABHUy6KMVOws6GOn6dHxNnou72q7qRKNuzqMS65RkFWCgmCYwrCEqn9BKfiAt1jLy0fyqZSqbp8nm7SpMlTwn2yRYouq0wSRQAAAABJRU5ErkJggg==" alt=""></a>
+                                    </figcaption>
+                                </figure>
+                                <div class="desc">
+                                    <ul class="desc-inner">
+                                        <li><a href="#">우담라이팅</a></li>
+                                        <li><img src="./src/assets/works/pc.png " alt=""></li>
+                                    </ul>
+                                    <p>swiper / javascript</p>
                                 </div>
                             </div>
                         </div>
@@ -219,10 +337,9 @@
         <section id="project">
             <div class="project-inner">
                 <h2>Design Project</h2>
-                <a href="#">more <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADNSURBVHgB7dgtC8JgFMXx4wtiMIiI2BYsNpvJL2i2mm1Wk0ZFEBSDyWIxGAyCXc/DNRmWBuNezg/+aenAps8GiIiIiIhIubbsxHpwbs8+7Mw6cKzLLrAxB9aGY312hY1Jt1oLjmXsBhuzYU04NmB32JgVa8CxIXvAxixZHY6N2BM2ZsFqcGzMXrAxc1aBYxP2ho2Z/V9c/y54bJoGVCGlyb21vAjxsIf4+Q3xhxjiiJIhwKExxDE+zIvVDkFeddPzcESAjw8iIiIiIsX7AmhAY+O0UlAIAAAAAElFTkSuQmCC" alt=""></a>
             </div>
             <div class="wrap">
-                <div class="rot__box"> <!-- 실제로 도는 객체 -->
+                <div class="rot__box">
                     <div class="txt__box card__box">
                         <p class="txt__type">
                             생각의 경계를 넘어서는<br>
@@ -231,38 +348,105 @@
                         </p>
                     </div>
                     <div class="card__box">
-                        <div class="card">
-                            <div class="card-desc">
-                                <span>Brandimg Design</span>
-                                <h2>IDENTYTI 심볼 디자인</h2>
+                        <div class="container">
+                            <div class="card">
+                                <div class="card-desc">
+                                    <img src="/assets/art-ChSiYieJ.png" alt="">
+                                    <div class="summary">
+                                        <p>Figma - prototype</p>
+                                        <a href="#">more<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADNSURBVHgB7dgtC8JgFMXx4wtiMIiI2BYsNpvJL2i2mm1Wk0ZFEBSDyWIxGAyCXc/DNRmWBuNezg/+aenAps8GiIiIiIhIubbsxHpwbs8+7Mw6cKzLLrAxB9aGY312hY1Jt1oLjmXsBhuzYU04NmB32JgVa8CxIXvAxixZHY6N2BM2ZsFqcGzMXrAxc1aBYxP2ho2Z/V9c/y54bJoGVCGlyb21vAjxsIf4+Q3xhxjiiJIhwKExxDE+zIvVDkFeddPzcESAjw8iIiIiIsX7AmhAY+O0UlAIAAAAAElFTkSuQmCC" alt=""></a>
+                                    </div>
+                                </div>
+                                <svg class="text-circle" viewBox="0 0 300 300">
+                                    <defs>
+                                        <path id="circlePath"
+                                            d="M 150, 150 m -120, 0 a 120,120 0 1,1 240,0 a 120,120 0 1,1 -240,0">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circlePath" startOffset="25%">
+                                            APP DESIGN PROJECT
+                                        </textPath>
+                                    </text>
+                                </svg>
                             </div>
                         </div>
                     </div>
                     <div class="card__box">
-                        <div class="card">
-                            <div class="card-desc">
-                                <span>web Renewal Design</span>
-                                <h2>서울시립미술관</h2>
+                        <div class="container">
+                            <div class="card">
+                                <div class="card-desc">
+                                    <img src="/assets/web-Bqn9nOeJ.png" alt="">
+                                    <div class="summary">
+                                        <p>서울시립미술관 Redesign</p>
+                                        <a href="#">more <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADNSURBVHgB7dgtC8JgFMXx4wtiMIiI2BYsNpvJL2i2mm1Wk0ZFEBSDyWIxGAyCXc/DNRmWBuNezg/+aenAps8GiIiIiIhIubbsxHpwbs8+7Mw6cKzLLrAxB9aGY312hY1Jt1oLjmXsBhuzYU04NmB32JgVa8CxIXvAxixZHY6N2BM2ZsFqcGzMXrAxc1aBYxP2ho2Z/V9c/y54bJoGVCGlyb21vAjxsIf4+Q3xhxjiiJIhwKExxDE+zIvVDkFeddPzcESAjw8iIiIiIsX7AmhAY+O0UlAIAAAAAElFTkSuQmCC" alt=""></a>
+                                    </div>
+                                </div>
+                                <svg class="text-circle" viewBox="0 0 300 300">
+                                    <defs>
+                                        <path id="circlePath"
+                                            d="M 150, 150 m -120, 0 a 120,120 0 1,1 240,0 a 120,120 0 1,1 -240,0">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circlePath" startOffset="25%">
+                                            WEB RENEWAL DESIGN
+                                        </textPath>
+                                    </text>
+                                </svg>
                             </div>
                         </div>
                     </div>
                     <div class="card__box">
-                        <div class="card">
-                            <div class="card-desc">
-                                <span>App project Design</span>
-                                <h2>아트에픽</h2>
+                        <div class="container">
+                            <div class="card">
+                                <div class="card-desc">
+                                    <img src="/assets/pf-POxVgpSz.png" alt="">
+                                    <div class="summary">
+                                        <p>Infinite Universe</p>
+                                        <a href="#">more <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADNSURBVHgB7dgtC8JgFMXx4wtiMIiI2BYsNpvJL2i2mm1Wk0ZFEBSDyWIxGAyCXc/DNRmWBuNezg/+aenAps8GiIiIiIhIubbsxHpwbs8+7Mw6cKzLLrAxB9aGY312hY1Jt1oLjmXsBhuzYU04NmB32JgVa8CxIXvAxixZHY6N2BM2ZsFqcGzMXrAxc1aBYxP2ho2Z/V9c/y54bJoGVCGlyb21vAjxsIf4+Q3xhxjiiJIhwKExxDE+zIvVDkFeddPzcESAjw8iIiIiIsX7AmhAY+O0UlAIAAAAAElFTkSuQmCC" alt=""></a>
+                                    </div>
+                                </div>
+                                <svg class="text-circle" viewBox="0 0 300 300">
+                                    <defs>
+                                        <path id="circlePath"
+                                            d="M 150, 150 m -120, 0 a 120,120 0 1,1 240,0 a 120,120 0 1,1 -240,0">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circlePath" startOffset="25%">
+                                            PORTFOLIO
+                                        </textPath>
+                                    </text>
+                                </svg>
                             </div>
                         </div>
                     </div>
                     <div class="card__box">
-                        <div class="card">
-                            <div class="card-desc">
-                                <span>Portfolio Design</span>
-                                <h2>INFINITE UNIVERSE</h2>
+                        <div class="container">
+                            <div class="card">
+                                <div class="card-desc">
+                                    <img src="/assets/symbol-B2ngODP6.png" alt="">
+                                    <div class="summary">
+                                        <p>Identity Symbol</p>
+                                        <a href="./11.14 (프로젝트)/APP/index.html">more <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADNSURBVHgB7dgtC8JgFMXx4wtiMIiI2BYsNpvJL2i2mm1Wk0ZFEBSDyWIxGAyCXc/DNRmWBuNezg/+aenAps8GiIiIiIhIubbsxHpwbs8+7Mw6cKzLLrAxB9aGY312hY1Jt1oLjmXsBhuzYU04NmB32JgVa8CxIXvAxixZHY6N2BM2ZsFqcGzMXrAxc1aBYxP2ho2Z/V9c/y54bJoGVCGlyb21vAjxsIf4+Q3xhxjiiJIhwKExxDE+zIvVDkFeddPzcESAjw8iIiIiIsX7AmhAY+O0UlAIAAAAAElFTkSuQmCC" alt=""></a>
+                                    </div>
+                                </div>
+                                <svg class="text-circle" viewBox="0 0 300 300">
+                                    <defs>
+                                        <path id="circlePath"
+                                            d="M 150, 150 m -120, 0 a 120,120 0 1,1 240,0 a 120,120 0 1,1 -240,0">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circlePath" startOffset="25%">
+                                            BRANDING DESIGN
+                                        </textPath>
+                                    </text>
+                                </svg>
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="btn">
                     <div class="project-prev" role="button" value="prev"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUQSURBVHgB7ZtLTFxVGMe/75wZYGaYobxKlWKtmpjURhNtXBgXpeAjxlRjUprYTanGRYWAJvWxoWLdtNog9ZHYmEhMxAbddNMurELTaF3UjYkbH1FbEy0WCwPzZOb7/G6ryMCAM8ww917m/JLhci7nzlz+9zvf45wzAAaDwWAwGAzuBMFlMDN2fxm9Qcf1HVqlvblel6aZbwbbmy7n2t8DLuLgCFc8dya614PcA5hqIkaV67WsqjvlcDLX/q4RxhJlqj7ypBj5a/JqhDxBpop8+rtCmGcusHdyKvYYAh6WZt6irIScTdEuLEvxT0X2IMOQNNdDiXC0xewaYR1uiD0uA+GIeAk/lBDHCvOvT2FW70izpKJYOFKYg6NcNQPx3SJKHzKXXBQLxwljWUoYEk8zUx8wNIBNOEqYuZBM2CfNRjuzT8cIY0dIXg5HhGu7QvJyOKJW6v6aQ3o61g6aF/kUKY1uQeT94m+CUBingeDS/BOIOA2p2AcDD9d/t7Cz44vI3s+mt4NSI7A6w2sciHa/+UBwbOEfHJ/52oURZgmMMEtQcLiWLNV6D88lL3hbwoBx79Wi+q1ZrfzEUDByU9PyNrTg9AwpTmbrvyJhXjo3WRtL4G2oPc1T6UQzQOqmmjTWhys5INMeGooJcxMDBgtVmyj9Pig8P/+cIpWsoOCP2frnJUzX2dhmTal9iaTaITe6UfRvBEz7rOdx/aHiqgzOopigiDLYFvwk1+7/K0z3Ka7UnultrLELU7RTPsF/TQTXzRbnx7LC9I7GbgaKPI/geUJsuhnKiKzCbBeHelc60cqUPiy1yxYGroQyY5EwVjFXHY7tJOCj0twEZUqGMLtGRrRvMvqQWMjb4qyaoAhh0q3MxRBrIWtj/aP3yErNIUbcIKKscfe6PHPCvDAGki/wAQnBd4JhXtYRsH4gz6UkZc6cMK/fi3/I2HlDBtVPYMjMU0M7fBfk0CtD6gc5lrXlZAjTj0jRmsAZBnpRZLkIZcyiyub4NpwNX5w4TaSekqFlTfkloAzJWvINdW6OH3vQ9zmxv42Ijkssz3lfyVph2Vp4sB0vV/weeZkI9khuMyxRKwJlQl5JXM8X4duBPZ0ya3+/+KAW8c+1Et+r0QW1tvjNjnymHVb0D3WfmgiBt+pWjbCJkFq00jcCY6NkzzIlwQFZlijaZBXLMq2kVnfLrzlvK8sGIR/xAJ7NOKdVXNPst0dbQ1cW9i/4SVulxCtjv1RGkj6dSHu1TiiVaMCiWVDlrPc++ZAP5VbroDAsN5A5jYk4Tpzad6wt9NXCzgXP+Yp1WPlOHFYJWVeKyLpSGgon8M/rP5hnFWHWLWhmlWAJjDBLYIRZAkdsA7ke5SraEdTijUIKt0jRX1Vo5SZBYkwBfp95FmWtyZO19HGEMIn1dbFAeMZDjAO4aBMiF6ecRX53oK065zzGEUPJqs9CrdWfMtN+ZPyZHVDZO8bHWJV97V+BjxnpVUmCroDNOMr59ndgclIFThDhIWn+CTbiuKg01Irx2qu+95DVARlQ42ATjgzXluVE1lUNK6QuqZWiYAOOzWMshxyc+PUkEj/LNgwrRyd4/R1bk9G6wEeaqVuaMSghjs98r1mOlX+kuaSh3BUlgRXKayYDw6UM5a75hpvlkPeO8omaVNQry8g9kuM3W3MeuV5PqPOaunDf+rRMjPWei27gJG+VNH9drpdRQp9/6xH/b2AwGAwGg8GwxvkbG5DNrCw8XvkAAAAASUVORK5CYII="
@@ -313,20 +497,98 @@
             <div class="about_wrap">
                 <div class="txt">
                     <span class="en">UIUX DESIGNER</span>
-                    <p>지금까지 많은 도전을 통해 다양한 경험을 하며 달려왔습니다</p>
+                    <p class="about-mobile title">about </p>
+                    <p class="about-pc">지금까지 많은 도전을 통해 다양한 경험을 하며 달려왔습니다</p>
                     <h2 class="tit">KIM SO YEON</h2>
+                    <p class="about-mobile">지금까지 많은 도전을 통해 다양한 경험을 하며 달려왔습니다</p>
                     <ul class="cate">
                         <li class="title1">I AM</li>
                         <li class="title2">Education/License</li>
                         <li class="title3">Experience</li>
+                        <li class="title4">Skill</li>
                     </ul>
                 </div>
-                <ul class="cont" data-aos="fade-up">
-                    <li class="cont01">
+                <ul class="desc" data-aos="fade-up">
+                    <li class="cont cont01">
+                        <div class="cont-container">
+                            <div class="cont-title">
+                                <h2> I AM <span>자기소개</span></h2>
+                            </div>
+                            <div class="cont-box">
+                                <h3>끊임없이 도전하는 <span>ENERGY</span></h3>
+                                <p>포트폴리오를 제작하며 세 번에 걸쳐 수정과 재구성을 거쳤습니다.<br> 초안마다 주위의 <span>피드백을 적극적으로 수용</span>하고 부족한 부분을
+                                    보완하기 위해 처음부터 다시
+                                    시작했습니다.<br> 이 과정을 통해 단순한 결과물 제작을 넘어 작업물의 가치를 명확히 표현하는 법을 배웠으며,<br><span>반복과 도전을
+                                        두려워하지 않고 끈기를 발휘해 완성도
+                                        높은 결과물</span>을 만들어냈습니다.</p>
+                            </div>
+                            <div class="cont-box">
+                                <h3>성공적인 변화를 만든 <span>SYNERGE</span></h3>
+                                <p>어린이집에서 동료 선생님들과의 협력하여 새로운 행사를 기획하고 실행한 경험이 있습니다.<br> 협력의 힘으로 행사 종료 후 만족도 조사에서 매번 높은
+                                    점수를 받을 수 있었고,<br> 설문조사를 통해 받은 피드백을 적극 반영하여 더욱 만족도 높은 행사를 진행할 수 있었습니다.<br> 이 경험을 통해
+                                    <span>협업의 중요성과 지속적인 개선의 가치</span>를 깊이 배우게 되었습니다.
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                    <li class="cont02">
+                    <li class="cont cont02">
+                        <div class="cont-container">
+                            <div class="cont-title">
+                                <h2>LICENSE <span>자격</span></h2>
+                            </div>
+                            <div class="cont-box">
+                            <div class="box-inner">
+                                <p>2024 .12<br>웹디자인기능사 취득</p>
+                                <p>2024 .11<br>GTQ(그래픽기술자격)1급 취득</p>
+                                <p>2022 .03<br>언어재활사2급 취득</p>
+                                <p>2022 .02<br>보육교사2급 / 장애영유아보육교사 취득</p>
+                                <p>2021 .09<br>컴퓨터활용능력2급 취득</p>
+                            </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="cont03">
+                    <li class="cont cont03">
+                        <div class="cont-container">
+                            <div class="cont-title">
+                                <h2>EXPERIENCE <span>경력</span></h2>
+                            </div>
+                            <div class="cont-box">
+                                <div class="box-inner">
+                                    <p>2024 .06 ~ 2024 .12<br>MBC 아카데미 웹디자인 / 퍼블리셔 과정 수료 </p>
+                                    <p>2022 .03 ~ 2024 .02<br>장애영유아 유아반 담임교사</p>
+                                    <p>2022 .02<br>순천제일대학교 졸업</p>
+                                    <p>2020 .03 ~ 2021 .02<br>순천제일대학교 총학생회</p>
+                                </div>
+                        </div>
+                    </li>
+                    <li class="cont cont04">
+                        <div class="cont-container">
+                            <div class="cont-title">
+                                <h2>SKILL <span>스킬</span></h2>
+                            </div>
+                            <div class="cont-box">
+                                <div class="box-inner">
+                                    <div class="img">
+                                        <img src="/assets/html-CCACddfk.png" alt="">
+                                        <img src="/assets/css-Dtokl3-T.png" alt="">
+                                        <img src="/assets/sass-DdjNjyX7.png" alt="">
+                                        <img src="/assets/java-C1Egokk3.png" alt="">
+                                        <img src="/assets/jquery-CgKC6_rG.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img src="/assets/ps-D1kLXlUt.png" alt="">
+                                        <img src="/assets/ai-DXpJyOCr.png" alt="">
+                                        <img src="/assets/figma-CEN5gIX9.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img src="/assets/gsap-CpLphG7Q.png" alt="">
+                                        <img src="/assets/swiper-D7vstCBP.png" alt="">
+                                        <img src="/assets/git-hub-k6NmGO5p.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </li>
                 </ul>
             </div>
@@ -343,14 +605,27 @@
                 </ul>
             </div>
         </div>
+        <div class="footer-desc">
+            <div class="desc-left">
+                <h2>Let's work together !</h2>
+                <p>새로운 경험을 통해 배우고 성장할 준비가 되어 있습니다.</p>
+            </div>
+            <div class="desc-right">
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASdSURBVHgB7dxLyFVVGAbg93THS1IpiWWFJmRCRol0sZuTkCRyEM0cdJk0q0EmVHSjcliDLtjAsGhQg0gkjAohE7rbIKVCg8pMs6uRpX9+vR/rBJXov88531pn733eB162E/9z1lpn77P2Ot/agIiIiIiIiIiIiEgfOijIzPz1rmQWMZOZXczrnU5nG6QsDsYi5hM73CHmZWYqJD929ETmceYvO7rPmWmQfLpnxQ6r7g3mGEg8duwdzEHr3UpIHHboscxT1j8fxEshg2NHdpjnbXB+mZsCGQw78R6L8xKkf+zAhTb+TKpXN0P6Y2mGFO035jxIb9hpCyyfj5kTMSKi5vw3IJ8LmVWQ6vgJfs/y8uWVpRgBIYuL7Ky9PJyGvPw15nMh8lu02MCXrO71/VTk54uPa63lSysRjTse5ZbxFzMr0GIDdyQ/sT4gB1DOn8w8Xrq2o4UGPkPYMQeROqkUv0TejpaKuh6X/qK9Gi0VNSBfo6zW/pAVNSA7UNZetFTUgHyEst5CS0UNyIcoxycQT6KlogZkCzOGMu7kzK70JbJ5eD+y0fK7Fy0XuQyxHnndxzPjIUg1/PTOtXzux4gIXYNix33Bw7mI9SMzjWfHIYyA6JXTNYjnNcDnQHrHM2Q6c8DieZnp6RgBoWcILyvfIc+X+xxmHQdlMqQ37LQllo9XtoxMwUMIS9WLWyyfV5jjINWxw5ZZXs9Z2vwjVVg6S3JXojwGqY4dttTyuwtSHTtss+Xl9Vqq/62KnTXf+tu004sxZhl6ZOmyOoOZZaM0c2NjV1l+fzCLK76fk5lHmV3/+v9+M/sqcxHajo2cwGy3/H5lFozzXi4Y57342fagtX1azQZeY+l6n9v3zNwjvAe/Yf2l4t/xGWL0Imm9sIFrrIyvmJn/e+0V1vtmIh+85WgrNm4Ss9XK2MbMZqYwa20wLzKnoJDSj9aYx8O7zETkZ91jRBt3Mrdw8XQDMitaSc4GfcrDrSijg7gP3BnMa/xAPcNMQtuwUU9bc/mW7SuQyVAW6Nigk3jYxFyMZvKSJ99m90C32DzM0FZMOSgzeNjMnI3m8gLBGzkoXyLIUJewOSjn8/A2yuzAysULzRd2fy0d2FC3h7ERW5F28P6O5vJ7nkcQpBY/8lhah1rHTEAzeYnSzIgNqbXYQMmGeDX7tcw+NJP34yUIUJsdrRwUn3UtYX5AM4VMTmq1xZiD8g4Pl6P8BqAIexCgdnu+OSif8XAZ0pS4Kfw7ZCMC1HITPgdlNw9XoTnPONnE97wTAWr7VAQ2cIy5m/+8ifkZ9fYCgjSitonT4uk8rGbq+AAavzGcww9PyF79Rjw3pHsXfD1zG9L2hDp5OGowGolny1TmWYt/nGA/3jQ9ZzixVGK03oZnN3MW5L8sPT3bB6ZEEcU/9tk4FS4jz9IZs9qqV5b0yytbQpZJRoKlh/8vt7RNO/qs+YCZDemPpTJRfwb9Bma/9c+L8FYyJ0BiWKqgvM5SaavPjn6qMBB7mCcs3QcVMbKbXixt+JmFtH/Rj2ci3ZftZ75h/Mez933FACIiIiIiIiIiIiIiIiIiIjJ0fwOQ02acmsRg1gAAAABJRU5ErkJggg==" alt=""><span>010.8964.7211</span></p>
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATlSURBVHgB7dxtiFRVGAfwZ1ZLbTeNstyypKAPFhFWIIRSKUWRCxFJfetlkSiKNAr2S9ASBEEspEEfpCwEozcpMskk2pUoikIqgwgikzQj82XVIi17+j/cGZiGmXOcOfc659z5/+DPXXbvveccH++dc+/MXBEiIiIiIiIiIiIiIiIiIiIionZVpECqOoDFDcj1yCXIuUi/pOUPZB+yE9mGTFQqlaNSkEIKgkJciMXjyDByppTLEWQd8iwKs0dylntBUIx7sFiDzJRym0QeQVHWS476JH9fIYel/P5EvpOcFXXKmovFu8jVUk7fIkM4OnZJzoo4QqR6brUX8k1SPluRxUUUwxRSEFOdidwu2etJWaxFlmFskxIrnJ5WIfM966xE/tF0Wd9XesY437dO4dCB6cgkcgBZ6ll3CDmi6bE+D3nGtlSzf4NDyDTpFjR+a13HjyPDnvUXID9rOqyvCzxjGtZs7DU3S7eg8aeaDGI10ufY5nzkC43f18hFjnFUkNEm241Kt6DxV1sM5k1khmO7fuQdjZf1rd/R/xmajbGZDdItaHyzY1CfI4OObfuQMY2P9cl1hA9qNrZW3pNuQeNbPIPbjVzl2ccK/f85uFtsJvWQp69XIDs9+9ki3aL+gpiTmaXciBzU7jmMLPP08SbNZlE+QQUp7MKwjt2Ct3Pyw61WwIXWh1gsRn6SU283ch36sLnVCuj7Cizs77MkZnpyR0g9m4FNcexvNvKxnjqfIXMc/Wk1k3KJ/pTV6H1kpmOf05ANWry3kDMc/eh0JphcQYzN8ec59tvJ/8x2+K6VLkC+1M4kWRCzB7nGs/97kWOan7+RBzxtXons0s4lWxBzFLnN08YiZJ+Gs3tNSzxt3aLZvbkQ0c+yXOxqeCMGMdJqBcx+PsHiWuR76dyPyCLsa7zVCujD/ZK9f5PuW88afoTUW4uc5mjrbGRC2/cpcp5jv1OQNZqfpE9ZjbYisxzt2QxsfRv7e0Pd99QGkE2ar1IVxOxALna0aTOwEeRfxz7sb8/Yuo79zEW2a/5KVxCzF1noaXs58nuTbW0CsNyz7cJqG0UIKshUiZPdJR7H4O7GC/HGZivg93Zh94Fk79vXbmBuR952fbIQ29yBhX2WquVFYbK0uCOkxk49o5ITzd7bP6HFSnra62OvAU9ikOuQ06VD2HYq8gJ+fE4iH3PsBam5D7GjcbDdDavb2GepHpQEpFIQY1fZdg/sTnXch6rR7B3Ju/DjN9Vtk5BSQYxd4L2O7Ki+HlzWuIL9TrPPR9nHPV+T7CsQyYh1luVzuWSvB1aAv7D4rfp7K9h0SViqBalnBZgnJZHaKav0WJDIsCCRYUEiw4JEhgWJDAsSGRYkMixIZEILclyo0TEJEFqQvUKNfpEAoQUJarykulqQbUKNJiRA0KM1NPtqwa/IbCGzH5lTqVROSIeCjpBqwy8L1bwYUgwT/PAZHCVnYfEDco70toPIpSjIAQkQfB2CDhyS7GFlvW5VaDFMLheG6MgrWKyW3jWW14PM8rxSfwx5XnqPvbc/Ijkp4hF/9o3VMemNR/w9iiMj10lNUU+Us2nwE5J9wK1shbHHF76EPI1i7JecFf2YWHtU0ZJq7LF/9rTSAUmLfXDbvstuT8n7CBlHIXgPj4iIiIiIiIiIiIiIiIiIiIgi8h8eikp7ErNqQwAAAABJRU5ErkJggg==" alt=""><span>soy325@naver.com</span></p>
+            </div>
+        </div>
+
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
     <script
-        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    
 </body>
 
 </html>

@@ -5,13 +5,13 @@
 @import url(/src/css/bace/reset.css);
 
 /* layout */
-@import url(/src/css/pages/header.css);
-@import url(/src/css/pages/intro.css);
-@import url(/src/css/pages/works.css);
-@import url(/src/css/pages/project.css);
-@import url(/src/css/pages/graphic.css);
-@import url(/src/css/pages/about.css);
-@import url(/src/css/pages/footer.css);
+@import url(/src/css/pages/scss/header.css);
+@import url(/src/css/pages/scss/intro.css);
+@import url(/src/css/pages/scss/works.css);
+@import url(/src/css/pages/scss/project.css);
+@import url(/src/css/pages/scss/graphic.css);
+@import url(/src/css/pages/scss/about.css);
+@import url(/src/css/pages/scss/footer.css);
 
 #custom-cursor{
     width: 150px;
@@ -51,4 +51,6 @@ section{
     background: #000;
     contain: paint;
     min-height: 100vh;
+    /* max-width: 1920px;
+    width: 100%; */
 }

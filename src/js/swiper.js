@@ -12,7 +12,7 @@ export function swiper() {
         },
         breakpoints: {
             768: {
-                slidesPerView: "auto",
+                slidesPerView: "3",
             },
             1200: {
                 slidesPerView: "4",
