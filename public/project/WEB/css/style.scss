@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.abhaya-libre-semibold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url(/font/notosans/NotoSansKR-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'NotoSans-Light';
+  src: url(/font/notosans/NotoSansKR-Light.ttf);
+}
+
+@font-face {
+  font-family: 'SF_HambakSnow';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'NotoSans-Regular';
+  background: #fff;
+}
+
+section {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 5%;
+  height: 5px;
+  background-color: #F2CCBC;
+  z-index: 99;
+}
+
+.sect1 {
+  background-image: url(/public/project/WEB/images/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.sect2 {
+  height: 60vh;
+  color: #fff;
+  background: #0E1F3B;
+  text-align: center;
+  position: relative;
+
+  b {
+    font-size: 20px;
+    color: #FFD628;
+    padding: 10px;
+    border: 1px solid #FFD628;
+    border-radius: 50px;
+    font-family: 'SF_HambakSnow';
+    margin-bottom: 70px;
+  }
+
+  span {
+    color: #F2CCBC;
+  }
+
+  .sect2-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.sect3 {
+  // background-image: url(/WEB/images/bg-3.png);
+  // background-repeat: no-repeat;
+  text-align: center;
+  height: 70vh;
+
+  .sect3-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    b {
+      font-size: 20px;
+      color: #5D8CC5;
+      padding: 10px;
+      border: 1px solid #5D8CC5;
+      border-radius: 50px;
+      font-family: 'SF_HambakSnow';
+    }
+  }
+
+
+
+}
+
+.sect4 {
+  height: 100vh;
+  text-align: center;
+
+  b {
+    font-size: 20px;
+    color: #5D8CC5;
+    padding: 10px;
+    border: 1px solid #5D8CC5;
+    border-radius: 50px;
+    font-family: 'SF_HambakSnow';
+  }
+
+  p {
+    color: #555;
+    padding-top: 20px;
+
+  }
+}
+
+.sect5 {
+  background-image: linear-gradient(to bottom, #0e1f3b, #0e1f3b, #0e1f3b, #0e1f3b, #0e1f3b, #232e49, #363e58, #494f67, #75778a, #a2a2b0, #d0cfd7, #ffffff, );
+
+  b {
+    font-size: 20px;
+    color: #FFD628;
+    padding: 10px;
+    border: 1px solid #FFD628;
+    border-radius: 50px;
+    font-family: 'SF_HambakSnow';
+  }
+}
+
+.sect6 {
+  .sect6-box {
+    margin-top: 400px;
+  }
+}
+
+.sect7 {
+  background: #0E1F3B;
+}
+
+.sect8 {
+  position: relative;
+  background: #0E1F3B;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+
+
+  b {
+    font-size: 20px;
+    color: #FFD628;
+    padding: 10px;
+    border: 1px solid #FFD628;
+    border-radius: 50px;
+    font-family: 'SF_HambakSnow';
+  }
+
+  .sect8-arrow {
+    position: absolute;
+    top: 570px;
+  }
+}
+
+.sect9 {
+  height: 70vh;
+  text-align: center;
+  overflow: visible;
+  background: #0E1F3B;
+
+  .sect9-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 9;
+
+    b {
+      font-size: 20px;
+      color: #FFD628;
+      padding: 10px;
+      border: 1px solid #FFD628;
+      border-radius: 50px;
+      font-family: 'SF_HambakSnow';
+    }
+
+    p {
+      color: #fff;
+
+      span {
+        color: #FF3898;
+      }
+    }
+  }
+
+
+
+}
+
+.sect10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  z-index: 9;
+  height: 100vh;
+
+  b {
+    font-size: 20px;
+    color: #5D8CC5;
+    padding: 10px;
+    border: 1px solid #5D8CC5;
+    border-radius: 50px;
+    font-family: 'SF_HambakSnow';
+  }
+}
+
+.sect11{
+  height: 50vh;
+  b{
+    font-size: 20px;
+    color: #5D8CC5;
+    padding: 10px;
+    border: 1px solid #5D8CC5;
+    border-radius: 50px;
+    font-family: 'SF_HambakSnow';
+}
+}
+
+.sect12{
+  height: 50vh;
+}
+.sect13{
+  height: 100vh;
+  background-image: url(/WEB/images/sect13-bg.jpg);
+  text-align: center;
+  padding-top: 50px;
+  p{
+    color: #fff;
+    font-size: 20px;
+  }
+  h3{
+    font-size: 100px;
+    color: #ED3DA6;
+  }
+}
+.sect14, .sect15, .sect16, .sect17, .sect18,
+.sect19, .sect20, .sect21 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 70px;
+  .desc{
+    padding: 50px;
+    p{
+      padding-top: 30px;
+    }
+  }
+}
+
+.sect15, .sect17, .sect19, .sect21 {
+  flex-direction: row-reverse;
+  text-align: right;
+  background: #0E1F3B;
+  color: #fff;
+}   
+
+footer{
+  height: 25vh;
+background-image: url(/public/project/WEB/images/sect13-bg.jpg);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    font-size: 36px;
+  }
+  p{
+    font-size: 21px;
+    font-family: 'SF_HambakSnow';
+    padding: 20px;
+
+  }
+  .btn {
+    margin-top: 20px;
+
+    a {
+        display: block;
+        position: relative;
+        width: 150px;
+        padding: 10px 0px;
+        text-align: center;
+        background-color: #ED3DA6;
+        color: #fff;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+            direction: rtl;
+            z-index: -1;
+            background: #fff;
+            transition: all 0.35s ease;
+        }
+
+        &:hover {
+            color: #ED3DA6;
+            font-weight: 700;
+
+            &::after {
+                left: auto;
+                right: 0;
+                width: 100%;
+            }
+
+        }
+    }
+}
+}
+
+@media screen and (max-width: 640px) {
+  .sect1 {
+
+    img.phone,
+    .line {
+      display: none;
+    }
+
+    .header {
+      padding: 380px 0 0 25px;
+
+      span {
+        font-size: 15px;
+      }
+
+      h1 {
+        font-size: 70px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      z-index: 99;
+    }
+
+    ul {
+      font-family: 'SF_HambakSnow';
+      font-size: 14px;
+      padding: 150px 0 0 25px;
+      z-index: 99;
+
+      li {
+        padding-bottom: 10px;
+      }
+    }
+
+    img.blue {
+      position: absolute;
+      left: -120px;
+      bottom: -90px;
+      width: 500px;
+    }
+
+    img.pink {
+      width: 500px;
+      position: absolute;
+      top: -20px;
+      left: 150px;
+    }
+  }
+
+  .sect2 {
+    .pink {
+      display: none;
+    }
+
+    .sect2-inner {
+      padding-top: 70px;
+
+      h2 {
+        font-size: 24px;
+        padding-bottom: 30px;
+        letter-spacing: 1.5px;
+      }
+
+      h3 {
+        font-weight: lighter;
+        font-size: 18px;
+        padding: 5px 20px;
+      }
+
+      p {
+        color: #aaa;
+        font-size: 14px;
+        padding: 33px;
+      }
+
+    }
+  }
+
+  .sect3 {
+    height: 100vh;
+    padding-top: 50px;
+
+    b {
+      font-size: 16px;
+      color: #FF3898;
+      font-family: 'SF_HambakSnow';
+    }
+
+    h2 {
+      font-size: 20px;
+      padding: 50px 30px;
+      font-family: 'NotoSans-Light';
+      color: #555;
+
+      span {
+        font-family: 'NotoSans-Regular';
+        color: #000;
+      }
+    }
+
+    ul {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+
+      li {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 18px;
+        background: #fff;
+        height: 90px;
+        box-shadow: 0 0 10px #ccc;
+        backdrop-filter: blur(5px);
+
+        &.opacity,
+        &.gray {
+          display: none;
+        }
+      }
+    }
+
+    p {
+      padding: 30px;
+      line-height: 36px;
+      color: #888;
+    }
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .sect1 {
+    .header {
+      margin-left: 50px;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 7%;
+      z-index: 99;
+
+      span {
+        font-size: 28px;
+        color: #6A5850;
+        font-family: "Abhaya Libre", serif;
+      }
+
+      h1 {
+        font-size: 150px;
+        color: #F2CCBC;
+        padding-bottom: 30px;
+        font-weight: lighter;
+      }
+
+      p {
+        line-height: 40px;
+        font-size: 20px;
+      }
+
+    }
+
+    ul.link {
+      font-size: 18px;
+      display: flex;
+      gap: 30px;
+      margin-top: 50px;
+
+
+      li {
+        width: 25%;
+        font-size: 18px;
+        color: #6A5850;
+        padding: 10px;
+        border: 1px solid #6A5850;
+        border-radius: 50px;
+        font-family: 'SF_HambakSnow';
+        text-align: center;
+
+
+        &:hover {
+          color: #fff;
+          border: 1px solid #fff;
+        }
+      }
+
+    }
+
+    ul.details {
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      font-family: 'SF_HambakSnow';
+      padding: 20px;
+      align-items: flex-end;
+      height: 100%;
+      z-index: 99;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 200px;
+    }
+  }
+
+  .sect2 {
+
+    h2 {
+      font-size: 30px;
+      letter-spacing: 1.5px;
+      padding: 30px;
+    }
+
+    h3 {
+      font-weight: lighter;
+      font-size: 23px;
+      padding: 20px;
+    }
+
+    p {
+      color: #aaa;
+    }
+
+    img.pink {
+      position: absolute;
+      width: 500px;
+      top: -90px;
+      right: -250px;
+    }
+  }
+
+  .sect3 {
+    h2 {
+      padding: 30px;
+      font-family: 'NotoSans-Light';
+      color: #333;
+      margin-top: 50px;
+
+      span {
+        font-family: 'NotoSans-Regular';
+        color: #000;
+      }
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      gap: 30px;
+      padding: 10px;
+      padding: 20px;
+      text-align: left;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        background: #fff;
+        height: 90px;
+        box-shadow: 0 0 5px #5D8CC5;
+        backdrop-filter: blur(10px);
+      }
+    }
+
+    p {
+      padding: 20px;
+      line-height: 36px;
+      color: #888;
+    }
+  }
+
+  .sect4 {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .pc {
+      width: 1400px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    p {
+      margin-top: 50px;
+    }
+  }
+
+  .sect5 {
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+
+    p {
+      padding: 70px;
+      font-size: 20px;
+    }
+
+    .sect5-inner {
+      padding-top: 100px;
+
+      ul {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        gap: 200px;
+        padding: 70px;
+
+        .Research-main {
+          font-size: 26px;
+        }
+      }
+    }
+
+
+
+    figure {
+      padding-bottom: 70px;
+
+      img {
+        width: 1350px;
+      }
+    }
+  }
+
+  .sect6 {
+    text-align: center;
+
+    .sect6-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-top: 100px;
+
+      b {
+        font-size: 20px;
+        color: #5D8CC5;
+        padding: 10px;
+        border: 1px solid #5D8CC5;
+        border-radius: 50px;
+        font-family: 'SF_HambakSnow';
+        margin-bottom: 70px;
+      }
+
+      p {
+        padding-top: 20px;
+        font-size: 28px;
+
+        span {
+          color: #5D8CC5;
+          font-size: 30px;
+        }
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin: 70px;
+
+        li {
+
+          img {
+            width: 450px;
+          }
+        }
+      }
+    }
+  }
+
+  .sect7 {
+    ul.improve {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+
+      li {
+        text-align: center;
+        font-size: 20px;
+
+        p {
+          font-size: 28px;
+          padding: 50px;
+        }
+
+        ul.asis {
+          color: #F2CCBC;
+
+          li {
+            border: 1px solid #F2CCBC;
+            padding: 30px 40px;
+            margin-bottom: 50px;
+            border-radius: 15px;
+          }
+        }
+
+        ul.tobe {
+          color: #797BDD;
+
+          li {
+            border: 1px solid #797BDD;
+            padding: 30px 40px;
+            margin-bottom: 50px;
+            border-radius: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .sect8 {
+
+    figure {
+      padding-top: 70px;
+    }
+  }
+
+  .sect9 {
+    .sect9-inner {
+      .sect9-box {
+        p {
+          font-size: 23px;
+          padding-top: 50px;
+        }
+      }
+
+    }
+  }
+
+  .sect10 {
+    .sect10-inner {
+      padding-top: 50px;
+    }
+  }
+
+  .sect11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    b{
+      margin-bottom: 50px;
+    }
+    .sect11-box{
+      width: 100%;
+      display: flex;
+      &>div{
+        text-align: center;
+        width: 50%;
+        p{
+          font-family: 'SF_HambakSnow';
+          font-size: 18px;
+          padding-bottom: 20px;
+        }
+      }
+      .sect11-left{
+        .desc{
+          font-family: 'NotoSans-Regular';
+          font-size: 16px;
+          padding-top: 20px;
+        }
+        img{
+          width: 500px;
+        }
+      }
+    }
+  }
+  .sect12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .sect12-inner{
+      display: flex;
+      &>div{
+        width: 50%;
+        b{
+          font-family: 'SF_HambakSnow';
+          font-size: 18px;
+          padding-bottom: 20px;
+        }
+        h2{
+          padding: 30px 0;
+          font-size: 28px;
+          font-weight: bolder;
+        }
+
+      }
+
+    }
+
+  }
+
+}

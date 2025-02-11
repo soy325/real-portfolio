@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100..900&display=swap");
+.abhaya-libre-semibold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url(/font/notosans/NotoSansKR-Regular.ttf);
+}
+@font-face {
+  font-family: "NotoSans-Light";
+  src: url(/font/notosans/NotoSansKR-Light.ttf);
+}
+@font-face {
+  font-family: "SF_HambakSnow";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ghanachoco";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "NotoSans-Regular";
+  background: #fff;
+}
+
+section {
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 5%;
+  height: 5px;
+  background-color: #70BDF5;
+  z-index: 99;
+}
+
+.sect1 {
+  background-image: url(/public/project/portfolio/images/sect1-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+.sect1 .header {
+  padding: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sect1 .header span {
+  font-size: 28px;
+  color: #fff;
+  font-family: "Abhaya Libre", serif;
+}
+.sect1 .header h1 {
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 150px;
+  background: linear-gradient(300deg, #A2AEFD, #B4EDFF, #A2AEFD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Abhaya Libre", serif;
+}
+.sect1 .header p {
+  padding-bottom: 30px;
+}
+.sect1 .header a {
+  padding: 10px 40px;
+  border: 1px solid #FFF;
+  border-radius: 50px;
+  font-family: "SF_HambakSnow";
+  width: 10%;
+  background: #000;
+}
+.sect1 .header a:hover {
+  color: #FFD628;
+  border: 1px solid #FFD628;
+}
+
+.sect2 {
+  height: 50vh;
+  color: #fff;
+  background: #000;
+  text-align: center;
+}
+.sect2 b {
+  font-size: 23px;
+  color: #70BDF5;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  margin-bottom: 70px;
+}
+.sect2 .sect2-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sect3 {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sect3 .sect3-inner b {
+  font-size: 23px;
+  color: #355F85;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  margin-bottom: 70px;
+}
+.sect3 .sect3-inner p {
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.sect3 img {
+  width: 1200px;
+}
+
+.sect4 {
+  height: 100vh;
+  background-image: url(/public/project/portfolio/images/sect4-bg.jpg);
+  text-align: center;
+  color: #fff;
+}
+.sect4 b {
+  font-size: 23px;
+  color: #70BDF5;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  margin-bottom: 30px;
+}
+.sect4 > div {
+  height: 50%;
+}
+.sect4 .motive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sect4 .motive p {
+  line-height: 30px;
+}
+.sect4 .keyword p {
+  font-size: 23px;
+  color: #70BDF5;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  margin: 30px;
+}
+.sect4 .keyword figure {
+  padding-top: 20px;
+}
+
+.sect5 {
+  background-image: linear-gradient(to bottom, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+}
+.sect5 figure {
+  padding: 50px;
+  text-align: center;
+}
+.sect5 .sect5-inner {
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.sect5 .sect5-inner b {
+  font-size: 23px;
+  color: #70BDF5;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  margin-bottom: 30px;
+}
+.sect5 h2 {
+  font-size: 23px;
+  color: #355F85;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  padding: 50px;
+  text-align: center;
+}
+.sect5 .color {
+  height: 50vh;
+  display: flex;
+  position: relative;
+}
+.sect5 .color b {
+  font-size: 23px;
+  color: #355F85;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.sect5 .color figure {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sect5 .color div {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sect5 .color div p {
+  padding-top: 20px;
+}
+.sect5 .color div h3 {
+  padding-bottom: 10px;
+}
+.sect5 .typography {
+  height: 50vh;
+  display: flex;
+  padding-top: 50px;
+}
+.sect5 .typography b {
+  font-size: 23px;
+  color: #355F85;
+  padding: 10px;
+  font-family: "SF_HambakSnow";
+  width: 30%;
+  margin-left: 100px;
+}
+.sect5 .typography .typo-box {
+  width: 70%;
+  padding: 0 30px;
+  display: flex;
+}
+.sect5 .typography .typo-box > div {
+  width: 50%;
+  padding: 20px;
+}
+.sect5 .typography .typo-box h2 {
+  color: #000;
+  font-family: "NotoSans-Regular";
+  text-align: left;
+  padding: 20px 0;
+}
+.sect5 .typography .typo-box img {
+  padding: 50px 0;
+}
+
+footer {
+  text-align: center;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+}
+footer .btn {
+  background: #70BDF5;
+  color: #000;
+  padding: 7px 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+footer .btn:hover {
+  background: #000;
+  color: #70BDF5;
+}/*# sourceMappingURL=style.css.map */
