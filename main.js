@@ -14,5 +14,4 @@ window.addEventListener('load', function () {
     footer();
     home();
     link();
-
 })
