@@ -46,14 +46,17 @@
                 width: 100%;
                 height: auto;
                 user-select: none;
+
                 .swiper {
                     padding-top: 100px;
                     width: 100%;
+
                     .swiper-slide {
                         position: relative;
                         height: 430px;
                         background: #fff;
                         border-radius: 50px;
+
                         // aspect-ratio: 1 / 1.3;
                         &.swiper-slide-active:hover {
                             figure {
@@ -61,15 +64,15 @@
                                     filter: brightness(.4);
                                 }
 
-                                figcaption {
-                                    opacity: 1;
-                                }
+                                // figcaption {
+                                //     opacity: 1;
+                                // }
                             }
                         }
-                        
+
                         figure {
                             overflow: hidden;
-                            padding-bottom:70px;
+                            padding-bottom: 70px;
                             width: 100%;
                             position: absolute;
                             top: 0;
@@ -81,10 +84,10 @@
                                 width: 100%;
                                 display: block;
                             }
-                            
+
 
                             figcaption {
-                                opacity: 0;
+                                // opacity: 0;
                                 text-align: center;
                                 position: absolute;
                                 bottom: 50%;
@@ -183,6 +186,7 @@
                 margin-top: 50px;
                 margin-left: 80px;
                 user-select: none;
+
                 .swiper {
                     width: 100%;
                     height: 80%;
@@ -197,14 +201,26 @@
                         // box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
                         overflow: hidden;
 
-                        &.swiper-slide-active:hover {
+                        // &.swiper-slide-active:hover {
+                        //     figure {
+                        //         >img {
+                        //             filter: brightness(.4);
+                        //         }
+
+                        //         figcaption {
+                        //             opacity: 1;
+                        //         }
+                        //     }
+                        // }
+
+                        &:hover {
+                            figcaption {
+                                opacity: 1;
+                            }
+
                             figure {
                                 >img {
                                     filter: brightness(.4);
-                                }
-
-                                figcaption {
-                                    opacity: 1;
                                 }
                             }
                         }
@@ -364,14 +380,16 @@
                         overflow: hidden;
                         border: 1px solid #000;
 
-                        &.swiper-slide-active:hover {
+                        // &.swiper-slide-active:hover {}
+
+                        &:hover {
+                            figcaption {
+                                opacity: 1;
+                            }
+
                             figure {
                                 >img {
                                     filter: brightness(.4);
-                                }
-
-                                figcaption {
-                                    opacity: 1;
                                 }
                             }
                         }
